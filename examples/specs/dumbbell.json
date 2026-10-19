@@ -1,0 +1,73 @@
+{
+  "name": "dumbbell",
+  "strict": true,
+  "brief": "Layered lagoon icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "palette": "lagoon",
+    "stroke_width": 0.85,
+    "relief": 0.16,
+    "light": {
+      "detail": "#033F43"
+    },
+    "dark": {
+      "detail": "#75D9E9"
+    },
+    "grid": "keyline-16",
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "dumbbell",
+      "label": "Dumbbell",
+      "scenario": "홈 트레이닝 무게 설정",
+      "meaning": "동일 크기의 두 중량과 가운데 좁은 그립",
+      "recognition": {
+        "silhouette": "양쪽 중량 블록과 가로 손잡이",
+        "cue": "동일 크기의 두 중량과 가운데 좁은 그립",
+        "confusable": "바벨",
+        "difference": "중량 블록 너비와 비슷한 짧은 그립으로 한 손 기구의 비례를 유지",
+        "cue_ids": [
+          "weight-left",
+          "weight-right",
+          "grip"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "grip",
+          "tag": "rect",
+          "x": 4.2,
+          "y": 6.5,
+          "width": 7.6,
+          "height": 3,
+          "rx": 1.5,
+          "role": "body",
+          "opacity": 0.62
+        },
+        {
+          "id": "weight-left",
+          "tag": "rect",
+          "x": 2.1,
+          "y": 3.2,
+          "width": 3.8,
+          "height": 9.6,
+          "rx": 1.6,
+          "role": "body",
+          "opacity": 0.86
+        },
+        {
+          "id": "weight-right",
+          "tag": "rect",
+          "x": 10.1,
+          "y": 3.2,
+          "width": 3.8,
+          "height": 9.6,
+          "rx": 1.6,
+          "role": "body",
+          "opacity": 0.86
+        }
+      ]
+    }
+  ]
+}

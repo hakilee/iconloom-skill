@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="megaphone-dark-title" data-profile="pack-layered">
+  <title id="megaphone-dark-title">Megaphone</title>
+  <defs>
+    <linearGradient id="megaphone-dark-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FF6C6F" />
+      <stop offset="1" stop-color="#FA6062" />
+    </linearGradient>
+    <clipPath id="megaphone-dark-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M5 8.5 L8 9.5 L7 13.5 Q6.7 14 5.7 13.5 Z" />
+    </clipPath>
+    <filter id="megaphone-dark-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="megaphone-dark-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FF6C6F" />
+      <stop offset="1" stop-color="#FA6062" />
+    </linearGradient>
+    <clipPath id="megaphone-dark-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="3" rx="1" width="3" x="2" y="6" />
+    </clipPath>
+    <filter id="megaphone-dark-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="megaphone-dark-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FF6C6F" />
+      <stop offset="1" stop-color="#FA6062" />
+    </linearGradient>
+    <clipPath id="megaphone-dark-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M4 6 L12.5 2.5 Q13 2.5 13 3.5 L13 11.5 Q13 12.5 12.5 12.5 L4 9 Z" />
+    </clipPath>
+    <filter id="megaphone-dark-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.83" data-layer="0">
+    <path d="M5 8.5 L8 9.5 L7 13.5 Q6.7 14 5.7 13.5 Z" fill="url(#megaphone-dark-layer-0-paint)" data-part="fill" filter="url(#megaphone-dark-layer-0-inset)" />
+    <path d="M5 8.5 L8 9.5 L7 13.5 Q6.7 14 5.7 13.5 Z" opacity="1" fill="none" stroke="#891919" stroke-width="0.5414" stroke-linejoin="round" clip-path="url(#megaphone-dark-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.85" data-layer="1">
+    <rect height="3" rx="1" width="3" x="2" y="6" fill="url(#megaphone-dark-layer-1-paint)" data-part="fill" filter="url(#megaphone-dark-layer-1-inset)" />
+    <rect height="3" rx="1" width="3" x="2" y="6" opacity="1" fill="none" stroke="#891919" stroke-width="1" stroke-linejoin="round" clip-path="url(#megaphone-dark-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.85" data-layer="2">
+    <path d="M4 6 L12.5 2.5 Q13 2.5 13 3.5 L13 11.5 Q13 12.5 12.5 12.5 L4 9 Z" fill="url(#megaphone-dark-layer-2-paint)" data-part="fill" filter="url(#megaphone-dark-layer-2-inset)" />
+    <path d="M4 6 L12.5 2.5 Q13 2.5 13 3.5 L13 11.5 Q13 12.5 12.5 12.5 L4 9 Z" opacity="1" fill="none" stroke="#891919" stroke-width="1" stroke-linejoin="round" clip-path="url(#megaphone-dark-layer-2-clip)" data-part="edge" />
+  </g>
+</svg>

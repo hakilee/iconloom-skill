@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="crossed-petals-light-title">
+  <title id="crossed-petals-light-title">Crossed Petals</title>
+  <defs>
+    <linearGradient id="crossed-petals-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#F886B7" />
+      <stop offset="1" stop-color="#EE569F" />
+    </linearGradient>
+    <clipPath id="crossed-petals-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <ellipse cx="8.0" cy="8.0" rx="4.26003471" ry="8.13279355" />
+    </clipPath>
+    <filter id="crossed-petals-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="crossed-petals-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#F886B7" />
+      <stop offset="1" stop-color="#EE569F" />
+    </linearGradient>
+    <clipPath id="crossed-petals-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <ellipse cx="8.0" cy="8.0" rx="4.26003471" ry="8.13279355" />
+    </clipPath>
+    <filter id="crossed-petals-light-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="crossed-petals-light-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#F886B7" />
+      <stop offset="1" stop-color="#EE569F" />
+    </linearGradient>
+    <clipPath id="crossed-petals-light-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <circle cx="8.0" cy="8.0" r="2.90456912" />
+    </clipPath>
+    <filter id="crossed-petals-light-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.65" data-layer="0" transform="rotate(45 8 8)">
+    <ellipse cx="8.0" cy="8.0" rx="4.26003471" ry="8.13279355" fill="url(#crossed-petals-light-layer-0-paint)" data-part="fill" filter="url(#crossed-petals-light-layer-0-inset)" />
+    <ellipse cx="8.0" cy="8.0" rx="4.26003471" ry="8.13279355" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#crossed-petals-light-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.82" data-layer="1" transform="rotate(-45 8 8)">
+    <ellipse cx="8.0" cy="8.0" rx="4.26003471" ry="8.13279355" fill="url(#crossed-petals-light-layer-1-paint)" data-part="fill" filter="url(#crossed-petals-light-layer-1-inset)" />
+    <ellipse cx="8.0" cy="8.0" rx="4.26003471" ry="8.13279355" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#crossed-petals-light-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.5" data-layer="2">
+    <circle cx="8.0" cy="8.0" r="2.90456912" fill="url(#crossed-petals-light-layer-2-paint)" data-part="fill" filter="url(#crossed-petals-light-layer-2-inset)" />
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Iconloom"
+  short_description: "사용자 주제와 스타일에 맞춘 일관된 라이트·다크 SVG 아이콘팩 생성"
+  default_prompt: "$iconloom 스킬로 여행 앱에 필요한 SVG 아이콘 6종을 라이트·다크 쌍으로 만들어주세요."

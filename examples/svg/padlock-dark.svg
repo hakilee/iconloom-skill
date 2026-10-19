@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="padlock-dark-title" data-profile="pack-layered">
+  <title id="padlock-dark-title">Padlock</title>
+  <defs>
+    <linearGradient id="padlock-dark-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#91E8C7" />
+      <stop offset="1" stop-color="#42BA96" />
+    </linearGradient>
+    <clipPath id="padlock-dark-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="8" rx="2" width="10" x="3" y="6" />
+    </clipPath>
+    <filter id="padlock-dark-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <clipPath id="padlock-dark-material-body" clipPathUnits="userSpaceOnUse">
+      <rect height="8" rx="2" width="10" x="3" y="6" />
+    </clipPath>
+    <mask id="padlock-dark-material-body-interior" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16" mask-type="luminance">
+      <rect height="8" rx="2" width="10" x="3" y="6" fill="white" />
+      <rect height="8" rx="2" width="10" x="3" y="6" fill="none" stroke="black" stroke-width="1" stroke-linejoin="round" />
+    </mask>
+  </defs>
+  <path d="M5 8 L5 4.5 C5 1 11 1 11 4.5 L11 8" fill="none" stroke="#DBE5FF" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  <g data-material="body" opacity="0.86">
+    <g data-layer="0">
+      <rect height="8" rx="2" width="10" x="3" y="6" fill="url(#padlock-dark-layer-0-paint)" data-part="fill" filter="url(#padlock-dark-layer-0-inset)" />
+    </g>
+    <g clip-path="url(#padlock-dark-material-body)" data-part="contained" />
+    <g>
+      <rect height="8" rx="2" width="10" x="3" y="6" opacity="1" fill="none" stroke="#1A5B40" stroke-width="1" stroke-linejoin="round" clip-path="url(#padlock-dark-layer-0-clip)" data-part="edge" />
+    </g>
+  </g>
+  <g mask="url(#padlock-dark-material-body-interior)" data-part="material-detail">
+    <circle cx="8" cy="9" r="0.8" fill="none" stroke="#202124" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+    <path d="M8 9.5 L8 11.5" fill="none" stroke="#202124" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  </g>
+</svg>

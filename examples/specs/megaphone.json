@@ -1,0 +1,72 @@
+{
+  "name": "megaphone",
+  "strict": true,
+  "brief": "Layered coral icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "grid": "keyline-16",
+    "palette": "coral",
+    "stroke_width": 1,
+    "relief": 0.16,
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "megaphone",
+      "label": "Megaphone",
+      "scenario": "현장 안내 방송",
+      "meaning": "확장된 혼의 비대칭 윤곽",
+      "layout": {
+        "keyline": "free",
+        "fit": "preserve"
+      },
+      "recognition": {
+        "silhouette": "오른쪽으로 넓어지는 혼과 아래 손잡이",
+        "cue": "확장된 혼의 비대칭 윤곽",
+        "confusable": "깃발, 손전등",
+        "difference": "넓은 열린 혼과 아래쪽 손잡이",
+        "cue_ids": [
+          "horn",
+          "handle"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "handle",
+          "tag": "path",
+          "d": "M5 8.5 L8 9.5 L7 13.5 Q6.7 14 5.7 13.5 Z",
+          "opacity": 0.83
+        },
+        {
+          "id": "driver",
+          "tag": "rect",
+          "x": 2,
+          "y": 6,
+          "width": 3,
+          "height": 3,
+          "rx": 1,
+          "opacity": 0.85
+        },
+        {
+          "id": "horn",
+          "tag": "path",
+          "d": "M4 6 L12.5 2.5 Q13 2.5 13 3.5 L13 11.5 Q13 12.5 12.5 12.5 L4 9 Z",
+          "opacity": 0.85
+        }
+      ],
+      "construction": {
+        "joins": [
+          [
+            "driver",
+            "horn"
+          ],
+          [
+            "handle",
+            "horn"
+          ]
+        ],
+        "gaps": []
+      }
+    }
+  ]
+}

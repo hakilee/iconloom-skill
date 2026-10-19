@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="paint-roller-light-title" data-profile="pack-layered">
+  <title id="paint-roller-light-title">Paint roller</title>
+  <defs>
+    <linearGradient id="paint-roller-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFE742" />
+      <stop offset="0.43" stop-color="#FFE236" />
+      <stop offset="1" stop-color="#FFCD0F" />
+    </linearGradient>
+    <clipPath id="paint-roller-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="4.07823523" rx="1.45651258" width="10.19558807" x="2.01" y="2.02829841" />
+    </clipPath>
+    <filter id="paint-roller-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="paint-roller-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFE742" />
+      <stop offset="0.43" stop-color="#FFE236" />
+      <stop offset="1" stop-color="#FFCD0F" />
+    </linearGradient>
+    <clipPath id="paint-roller-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="2.13621845" rx="0.97100839" width="10.19558807" x="2.01" y="3.97031519" />
+    </clipPath>
+    <linearGradient id="paint-roller-light-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFE742" />
+      <stop offset="0.43" stop-color="#FFE236" />
+      <stop offset="1" stop-color="#FFCD0F" />
+    </linearGradient>
+    <clipPath id="paint-roller-light-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="4.36953775" rx="1.16521007" width="2.33042013" x="6.86504193" y="9.60216384" />
+    </clipPath>
+    <filter id="paint-roller-light-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <clipPath id="paint-roller-light-material-roller" clipPathUnits="userSpaceOnUse">
+      <rect height="4.07823523" rx="1.45651258" width="10.19558807" x="2.01" y="2.02829841" />
+    </clipPath>
+  </defs>
+  <g data-material="roller" opacity="0.84">
+    <g data-layer="0">
+      <rect height="4.07823523" rx="1.45651258" width="10.19558807" x="2.01" y="2.02829841" fill="url(#paint-roller-light-layer-0-paint)" data-part="fill" filter="url(#paint-roller-light-layer-0-inset)" />
+    </g>
+    <g clip-path="url(#paint-roller-light-material-roller)" data-part="contained">
+      <g opacity="0.35" data-layer="1">
+        <rect height="2.13621845" rx="0.97100839" width="10.19558807" x="2.01" y="3.97031519" fill="url(#paint-roller-light-layer-1-paint)" data-part="fill" />
+      </g>
+    </g>
+    <g>
+      <rect height="4.07823523" rx="1.45651258" width="10.19558807" x="2.01" y="2.02829841" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#paint-roller-light-layer-0-clip)" data-part="edge" />
+    </g>
+  </g>
+  <path d="M 12.205588 4.067416 L 13.565 4.067416 L 13.565 7.8543487 L 8.030252 7.8543487 L 8.030252 10.087668" fill="none" stroke="#26334D" opacity="1" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  <g opacity="0.88" data-layer="2">
+    <rect height="4.36953775" rx="1.16521007" width="2.33042013" x="6.86504193" y="9.60216384" fill="url(#paint-roller-light-layer-2-paint)" data-part="fill" filter="url(#paint-roller-light-layer-2-inset)" />
+    <rect height="4.36953775" rx="1.16521007" width="2.33042013" x="6.86504193" y="9.60216384" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#paint-roller-light-layer-2-clip)" data-part="edge" />
+  </g>
+</svg>

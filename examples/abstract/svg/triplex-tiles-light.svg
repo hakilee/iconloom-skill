@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="triplex-tiles-light-title">
+  <title id="triplex-tiles-light-title">Triplex Tiles</title>
+  <defs>
+    <linearGradient id="triplex-tiles-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFB455" />
+      <stop offset="1" stop-color="#FF9C2C" />
+    </linearGradient>
+    <clipPath id="triplex-tiles-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="7.95401379" rx="1.52961804" width="6.52637029" x="5.70404244" y="1.53950885" />
+    </clipPath>
+    <filter id="triplex-tiles-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="triplex-tiles-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFB455" />
+      <stop offset="1" stop-color="#FF9C2C" />
+    </linearGradient>
+    <clipPath id="triplex-tiles-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="7.95401379" rx="1.52961804" width="6.52637029" x="4.89843802" y="1.35053278" />
+    </clipPath>
+    <filter id="triplex-tiles-light-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="triplex-tiles-light-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFB455" />
+      <stop offset="1" stop-color="#FF9C2C" />
+    </linearGradient>
+    <clipPath id="triplex-tiles-light-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="7.95401379" rx="1.52961804" width="6.52637029" x="5.13758215" y="2.14269472" />
+    </clipPath>
+    <filter id="triplex-tiles-light-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.8" data-layer="0" transform="rotate(15.0 8 8)">
+    <rect height="7.95401379" rx="1.52961804" width="6.52637029" x="5.70404244" y="1.53950885" fill="url(#triplex-tiles-light-layer-0-paint)" data-part="fill" filter="url(#triplex-tiles-light-layer-0-inset)" />
+    <rect height="7.95401379" rx="1.52961804" width="6.52637029" x="5.70404244" y="1.53950885" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#triplex-tiles-light-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.6" data-layer="1" transform="rotate(135.0 8 8)">
+    <rect height="7.95401379" rx="1.52961804" width="6.52637029" x="4.89843802" y="1.35053278" fill="url(#triplex-tiles-light-layer-1-paint)" data-part="fill" filter="url(#triplex-tiles-light-layer-1-inset)" />
+    <rect height="7.95401379" rx="1.52961804" width="6.52637029" x="4.89843802" y="1.35053278" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#triplex-tiles-light-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.78" data-layer="2" transform="rotate(255.0 8 8)">
+    <rect height="7.95401379" rx="1.52961804" width="6.52637029" x="5.13758215" y="2.14269472" fill="url(#triplex-tiles-light-layer-2-paint)" data-part="fill" filter="url(#triplex-tiles-light-layer-2-inset)" />
+    <rect height="7.95401379" rx="1.52961804" width="6.52637029" x="5.13758215" y="2.14269472" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#triplex-tiles-light-layer-2-clip)" data-part="edge" />
+  </g>
+</svg>

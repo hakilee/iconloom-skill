@@ -1,0 +1,75 @@
+{
+  "name": "garden-spade",
+  "strict": true,
+  "brief": "Layered sprout icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "palette": "sprout",
+    "stroke_width": 0.85,
+    "relief": 0.16,
+    "light": {
+      "detail": "#11500A"
+    },
+    "dark": {
+      "detail": "#A9E597"
+    },
+    "grid": "keyline-16",
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "garden-spade",
+      "label": "Garden spade",
+      "scenario": "모종을 심을 구덩이 준비",
+      "meaning": "끝이 뾰족한 삽날",
+      "recognition": {
+        "silhouette": "D형 손잡이와 긴 자루, 넓은 날",
+        "cue": "끝이 뾰족한 삽날",
+        "confusable": "주걱",
+        "difference": "길고 좁은 자루와 상단의 D형 손잡이",
+        "cue_ids": [
+          "blade",
+          "handle"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "handle",
+          "tag": "path",
+          "d": "M6.1 2 L9.9 2 L9.9 3.4 Q9.9 5.5 8 5.5 Q6.1 5.5 6.1 3.4 L6.1 2",
+          "role": "line"
+        },
+        {
+          "id": "shaft",
+          "tag": "rect",
+          "x": 7.3,
+          "y": 4.9,
+          "width": 1.4,
+          "height": 5.1,
+          "rx": 0.7,
+          "role": "body",
+          "opacity": 0.88
+        },
+        {
+          "id": "blade",
+          "tag": "path",
+          "d": "M5 8.3 L11 8.3 L10.5 12.3 L8 14.5 L5.5 12.3 Z",
+          "role": "body",
+          "opacity": 0.86
+        },
+        {
+          "id": "fold",
+          "tag": "rect",
+          "x": 7.3,
+          "y": 8.3,
+          "width": 1.4,
+          "height": 6,
+          "rx": 0.4,
+          "role": "surface",
+          "parent": "blade",
+          "opacity": 0.35
+        }
+      ]
+    }
+  ]
+}

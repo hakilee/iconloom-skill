@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="braided-disc-light-title">
+  <title id="braided-disc-light-title">Braided Disc</title>
+  <defs>
+    <linearGradient id="braided-disc-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFB455" />
+      <stop offset="1" stop-color="#FF9C2C" />
+    </linearGradient>
+    <clipPath id="braided-disc-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.124394 1.5598027 C 12.335808 1.5598027 14.441515 5.0342195 13.388662 8.403351 C 12.651664 10.509058 10.230101 11.667197 8.6508208 10.298487 Q 7.5979672 9.2456338 9.1772476 8.1927803 C 11.809382 6.2976438 9.7036744 3.9813659 7.0715404 5.0342195 Q 5.176404 5.771217 4.9658332 3.9813659 Q 4.6499772 1.8756588 8.124394 1.5598027 Z" />
+    </clipPath>
+    <filter id="braided-disc-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="braided-disc-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFB455" />
+      <stop offset="1" stop-color="#FF9C2C" />
+    </linearGradient>
+    <clipPath id="braided-disc-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.1047556 1.162904 C 12.31617 1.162904 14.421877 4.6373208 13.369024 8.0064522 C 12.632026 10.112159 10.210463 11.270298 8.6311824 9.9015887 Q 7.5783288 8.8487351 9.1576092 7.7958815 C 11.789743 5.9007451 9.684036 3.5844672 7.051902 4.6373208 Q 5.1567656 5.3743183 4.9461949 3.5844672 Q 4.6303388 1.47876 8.1047556 1.162904 Z" />
+    </clipPath>
+    <filter id="braided-disc-light-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="braided-disc-light-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFB455" />
+      <stop offset="1" stop-color="#FF9C2C" />
+    </linearGradient>
+    <clipPath id="braided-disc-light-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 7.7708504 1.3783607 C 11.982265 1.3783607 14.087972 4.8527775 13.035118 8.2219089 C 12.298121 10.327616 9.8765576 11.485755 8.2972772 10.117045 Q 7.2444236 9.0641918 8.823704 8.0113382 C 11.455838 6.1162018 9.3501308 3.7999239 6.7179968 4.8527775 Q 4.8228604 5.589775 4.6122897 3.7999239 Q 4.2964336 1.6942167 7.7708504 1.3783607 Z" />
+    </clipPath>
+    <filter id="braided-disc-light-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.8" data-layer="0" transform="rotate(0.0 8 8)">
+    <path d="M 8.124394 1.5598027 C 12.335808 1.5598027 14.441515 5.0342195 13.388662 8.403351 C 12.651664 10.509058 10.230101 11.667197 8.6508208 10.298487 Q 7.5979672 9.2456338 9.1772476 8.1927803 C 11.809382 6.2976438 9.7036744 3.9813659 7.0715404 5.0342195 Q 5.176404 5.771217 4.9658332 3.9813659 Q 4.6499772 1.8756588 8.124394 1.5598027 Z" fill="url(#braided-disc-light-layer-0-paint)" data-part="fill" filter="url(#braided-disc-light-layer-0-inset)" />
+    <path d="M 8.124394 1.5598027 C 12.335808 1.5598027 14.441515 5.0342195 13.388662 8.403351 C 12.651664 10.509058 10.230101 11.667197 8.6508208 10.298487 Q 7.5979672 9.2456338 9.1772476 8.1927803 C 11.809382 6.2976438 9.7036744 3.9813659 7.0715404 5.0342195 Q 5.176404 5.771217 4.9658332 3.9813659 Q 4.6499772 1.8756588 8.124394 1.5598027 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#braided-disc-light-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.6" data-layer="1" transform="rotate(120.0 8 8)">
+    <path d="M 8.1047556 1.162904 C 12.31617 1.162904 14.421877 4.6373208 13.369024 8.0064522 C 12.632026 10.112159 10.210463 11.270298 8.6311824 9.9015887 Q 7.5783288 8.8487351 9.1576092 7.7958815 C 11.789743 5.9007451 9.684036 3.5844672 7.051902 4.6373208 Q 5.1567656 5.3743183 4.9461949 3.5844672 Q 4.6303388 1.47876 8.1047556 1.162904 Z" fill="url(#braided-disc-light-layer-1-paint)" data-part="fill" filter="url(#braided-disc-light-layer-1-inset)" />
+    <path d="M 8.1047556 1.162904 C 12.31617 1.162904 14.421877 4.6373208 13.369024 8.0064522 C 12.632026 10.112159 10.210463 11.270298 8.6311824 9.9015887 Q 7.5783288 8.8487351 9.1576092 7.7958815 C 11.789743 5.9007451 9.684036 3.5844672 7.051902 4.6373208 Q 5.1567656 5.3743183 4.9461949 3.5844672 Q 4.6303388 1.47876 8.1047556 1.162904 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#braided-disc-light-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.78" data-layer="2" transform="rotate(240.0 8 8)">
+    <path d="M 7.7708504 1.3783607 C 11.982265 1.3783607 14.087972 4.8527775 13.035118 8.2219089 C 12.298121 10.327616 9.8765576 11.485755 8.2972772 10.117045 Q 7.2444236 9.0641918 8.823704 8.0113382 C 11.455838 6.1162018 9.3501308 3.7999239 6.7179968 4.8527775 Q 4.8228604 5.589775 4.6122897 3.7999239 Q 4.2964336 1.6942167 7.7708504 1.3783607 Z" fill="url(#braided-disc-light-layer-2-paint)" data-part="fill" filter="url(#braided-disc-light-layer-2-inset)" />
+    <path d="M 7.7708504 1.3783607 C 11.982265 1.3783607 14.087972 4.8527775 13.035118 8.2219089 C 12.298121 10.327616 9.8765576 11.485755 8.2972772 10.117045 Q 7.2444236 9.0641918 8.823704 8.0113382 C 11.455838 6.1162018 9.3501308 3.7999239 6.7179968 4.8527775 Q 4.8228604 5.589775 4.6122897 3.7999239 Q 4.2964336 1.6942167 7.7708504 1.3783607 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#braided-disc-light-layer-2-clip)" data-part="edge" />
+  </g>
+</svg>

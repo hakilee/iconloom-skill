@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="triple-capsule-dark-title">
+  <title id="triple-capsule-dark-title">Triple Capsule</title>
+  <defs>
+    <linearGradient id="triple-capsule-dark-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FF6C6F" />
+      <stop offset="1" stop-color="#FA6062" />
+    </linearGradient>
+    <clipPath id="triple-capsule-dark-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="10.07002839" rx="2.54400717" width="5.08801435" x="6.25099507" y="1.80866685" />
+    </clipPath>
+    <filter id="triple-capsule-dark-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="triple-capsule-dark-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FF6C6F" />
+      <stop offset="1" stop-color="#FA6062" />
+    </linearGradient>
+    <clipPath id="triple-capsule-dark-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="10.07002839" rx="2.54400717" width="5.08801435" x="6.64217192" y="0.21313916" />
+    </clipPath>
+    <filter id="triple-capsule-dark-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0.07942" dy="-1.66244" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="triple-capsule-dark-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FF6C6F" />
+      <stop offset="1" stop-color="#FA6062" />
+    </linearGradient>
+    <clipPath id="triple-capsule-dark-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="10.07002839" rx="2.54400717" width="5.08801435" x="5.06481598" y="0.67213392" />
+    </clipPath>
+    <filter id="triple-capsule-dark-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="-1.47942" dy="0.76244" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.8" data-layer="0" transform="rotate(0.0 8 8)">
+    <rect height="10.07002839" rx="2.54400717" width="5.08801435" x="6.25099507" y="1.80866685" fill="url(#triple-capsule-dark-layer-0-paint)" data-part="fill" filter="url(#triple-capsule-dark-layer-0-inset)" />
+    <rect height="10.07002839" rx="2.54400717" width="5.08801435" x="6.25099507" y="1.80866685" opacity="1" fill="none" stroke="#891919" stroke-width="1" stroke-linejoin="round" clip-path="url(#triple-capsule-dark-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.6" data-layer="1" transform="rotate(120.0 8 8)">
+    <rect height="10.07002839" rx="2.54400717" width="5.08801435" x="6.64217192" y="0.21313916" fill="url(#triple-capsule-dark-layer-1-paint)" data-part="fill" filter="url(#triple-capsule-dark-layer-1-inset)" />
+    <rect height="10.07002839" rx="2.54400717" width="5.08801435" x="6.64217192" y="0.21313916" opacity="1" fill="none" stroke="#891919" stroke-width="1" stroke-linejoin="round" clip-path="url(#triple-capsule-dark-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.78" data-layer="2" transform="rotate(240.0 8 8)">
+    <rect height="10.07002839" rx="2.54400717" width="5.08801435" x="5.06481598" y="0.67213392" fill="url(#triple-capsule-dark-layer-2-paint)" data-part="fill" filter="url(#triple-capsule-dark-layer-2-inset)" />
+    <rect height="10.07002839" rx="2.54400717" width="5.08801435" x="5.06481598" y="0.67213392" opacity="1" fill="none" stroke="#891919" stroke-width="1" stroke-linejoin="round" clip-path="url(#triple-capsule-dark-layer-2-clip)" data-part="edge" />
+  </g>
+</svg>

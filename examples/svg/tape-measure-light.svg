@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="tape-measure-light-title" data-profile="pack-layered">
+  <title id="tape-measure-light-title">Tape measure</title>
+  <defs>
+    <linearGradient id="tape-measure-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#CDBDEA" />
+      <stop offset="1" stop-color="#9E90BF" />
+    </linearGradient>
+    <clipPath id="tape-measure-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="3.03081979" rx="0.47356559" width="5.01979528" x="8.54520518" y="9.06612707" />
+    </clipPath>
+    <filter id="tape-measure-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="tape-measure-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#CDBDEA" />
+      <stop offset="1" stop-color="#9E90BF" />
+    </linearGradient>
+    <clipPath id="tape-measure-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="9.56602497" rx="3.12553291" width="8.99774626" x="2.01" y="3.00448748" />
+    </clipPath>
+    <filter id="tape-measure-light-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="tape-measure-light-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#CDBDEA" />
+      <stop offset="1" stop-color="#9E90BF" />
+    </linearGradient>
+    <clipPath id="tape-measure-light-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <circle cx="6.55622969" cy="7.26657781" r="2.13104517" />
+    </clipPath>
+    <filter id="tape-measure-light-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <clipPath id="tape-measure-light-material-tape" clipPathUnits="userSpaceOnUse">
+      <rect height="3.03081979" rx="0.47356559" width="5.01979528" x="8.54520518" y="9.06612707" />
+    </clipPath>
+    <mask id="tape-measure-light-material-tape-interior" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16" mask-type="luminance">
+      <rect height="3.03081979" rx="0.47356559" width="5.01979528" x="8.54520518" y="9.06612707" fill="white" />
+      <rect height="3.03081979" rx="0.47356559" width="5.01979528" x="8.54520518" y="9.06612707" fill="none" stroke="black" stroke-width="1" stroke-linejoin="round" />
+    </mask>
+  </defs>
+  <g data-material="tape" opacity="0.69">
+    <g data-layer="0">
+      <rect height="3.03081979" rx="0.47356559" width="5.01979528" x="8.54520518" y="9.06612707" fill="url(#tape-measure-light-layer-0-paint)" data-part="fill" filter="url(#tape-measure-light-layer-0-inset)" />
+    </g>
+    <g clip-path="url(#tape-measure-light-material-tape)" data-part="contained" />
+    <g>
+      <rect height="3.03081979" rx="0.47356559" width="5.01979528" x="8.54520518" y="9.06612707" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#tape-measure-light-layer-0-clip)" data-part="edge" />
+    </g>
+  </g>
+  <g mask="url(#tape-measure-light-material-tape-interior)" data-part="material-detail">
+    <path d="M 10.628894 9.5396927 L 10.628894 10.486824 M 12.144304 9.5396927 L 12.144304 10.486824" fill="none" stroke="#3E214B" opacity="1" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  </g>
+  <g opacity="0.86" data-layer="1">
+    <rect height="9.56602497" rx="3.12553291" width="8.99774626" x="2.01" y="3.00448748" fill="url(#tape-measure-light-layer-1-paint)" data-part="fill" filter="url(#tape-measure-light-layer-1-inset)" />
+    <rect height="9.56602497" rx="3.12553291" width="8.99774626" x="2.01" y="3.00448748" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#tape-measure-light-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.6" data-layer="2">
+    <circle cx="6.55622969" cy="7.26657781" r="2.13104517" fill="url(#tape-measure-light-layer-2-paint)" data-part="fill" filter="url(#tape-measure-light-layer-2-inset)" />
+    <circle cx="6.55622969" cy="7.26657781" r="2.13104517" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#tape-measure-light-layer-2-clip)" data-part="edge" />
+  </g>
+  <path d="M 13.565 9.2555533 L 13.565 12.570512" fill="none" stroke="#26334D" opacity="1" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+</svg>

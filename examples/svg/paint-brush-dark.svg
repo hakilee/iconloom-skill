@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="paint-brush-dark-title" data-profile="pack-layered">
+  <title id="paint-brush-dark-title">Paint brush</title>
+  <defs>
+    <linearGradient id="paint-brush-dark-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#B99EF8" />
+      <stop offset="1" stop-color="#A47AF5" />
+    </linearGradient>
+    <clipPath id="paint-brush-dark-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="6" rx="1" width="2" x="7" y="8" />
+    </clipPath>
+    <filter id="paint-brush-dark-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="paint-brush-dark-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#B99EF8" />
+      <stop offset="1" stop-color="#A47AF5" />
+    </linearGradient>
+    <clipPath id="paint-brush-dark-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="3" rx="0.5" width="8" x="4" y="6" />
+    </clipPath>
+    <filter id="paint-brush-dark-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="paint-brush-dark-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#B99EF8" />
+      <stop offset="1" stop-color="#A47AF5" />
+    </linearGradient>
+    <clipPath id="paint-brush-dark-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="5" rx="1" width="8" x="4" y="2" />
+    </clipPath>
+    <filter id="paint-brush-dark-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <clipPath id="paint-brush-dark-material-bristles" clipPathUnits="userSpaceOnUse">
+      <rect height="5" rx="1" width="8" x="4" y="2" />
+    </clipPath>
+    <mask id="paint-brush-dark-material-bristles-interior" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16" mask-type="luminance">
+      <rect height="5" rx="1" width="8" x="4" y="2" fill="white" />
+      <rect height="5" rx="1" width="8" x="4" y="2" fill="none" stroke="black" stroke-width="1" stroke-linejoin="round" />
+    </mask>
+  </defs>
+  <g opacity="0.9" data-layer="0">
+    <rect height="6" rx="1" width="2" x="7" y="8" fill="url(#paint-brush-dark-layer-0-paint)" data-part="fill" filter="url(#paint-brush-dark-layer-0-inset)" />
+    <rect height="6" rx="1" width="2" x="7" y="8" opacity="1" fill="none" stroke="#45105B" stroke-width="1" stroke-linejoin="round" clip-path="url(#paint-brush-dark-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.75" data-layer="1">
+    <rect height="3" rx="0.5" width="8" x="4" y="6" fill="url(#paint-brush-dark-layer-1-paint)" data-part="fill" filter="url(#paint-brush-dark-layer-1-inset)" />
+    <rect height="3" rx="0.5" width="8" x="4" y="6" opacity="1" fill="none" stroke="#45105B" stroke-width="1" stroke-linejoin="round" clip-path="url(#paint-brush-dark-layer-1-clip)" data-part="edge" />
+  </g>
+  <g data-material="bristles" opacity="0.87">
+    <g data-layer="2">
+      <rect height="5" rx="1" width="8" x="4" y="2" fill="url(#paint-brush-dark-layer-2-paint)" data-part="fill" filter="url(#paint-brush-dark-layer-2-inset)" />
+    </g>
+    <g clip-path="url(#paint-brush-dark-material-bristles)" data-part="contained" />
+    <g>
+      <rect height="5" rx="1" width="8" x="4" y="2" opacity="1" fill="none" stroke="#45105B" stroke-width="1" stroke-linejoin="round" clip-path="url(#paint-brush-dark-layer-2-clip)" data-part="edge" />
+    </g>
+  </g>
+  <g mask="url(#paint-brush-dark-material-bristles-interior)" data-part="material-detail">
+    <path d="M6 2.5 L6 4 M8 2.5 L8 4 M10 2.5 L10 4" fill="none" stroke="#202124" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  </g>
+</svg>

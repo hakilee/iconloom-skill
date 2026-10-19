@@ -1,0 +1,79 @@
+{
+  "name": "paint-roller",
+  "strict": true,
+  "brief": "Layered sunbeam icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "palette": "sunbeam",
+    "stroke_width": 0.85,
+    "relief": 0.16,
+    "light": {
+      "detail": "#A07E20"
+    },
+    "dark": {
+      "detail": "#FFE742"
+    },
+    "grid": "keyline-16",
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "paint-roller",
+      "label": "Paint roller",
+      "scenario": "넓은 벽면 페인트 작업 기록",
+      "meaning": "넓은 롤러 헤드와 아래 손잡이",
+      "recognition": {
+        "silhouette": "가로 원통과 꺾인 연결대",
+        "cue": "넓은 롤러 헤드와 아래 손잡이",
+        "confusable": "망치",
+        "difference": "얇게 꺾인 지지대와 긴 가로 원통",
+        "cue_ids": [
+          "roller",
+          "support"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "roller",
+          "tag": "rect",
+          "x": 1.8,
+          "y": 2,
+          "width": 10.5,
+          "height": 4.2,
+          "rx": 1.5,
+          "role": "body",
+          "opacity": 0.84
+        },
+        {
+          "id": "coat",
+          "tag": "rect",
+          "x": 1.8,
+          "y": 4,
+          "width": 10.5,
+          "height": 2.2,
+          "rx": 1,
+          "role": "surface",
+          "parent": "roller",
+          "opacity": 0.35
+        },
+        {
+          "id": "support",
+          "tag": "path",
+          "d": "M12.3 4.1 L13.7 4.1 L13.7 8 L8 8 L8 10.3",
+          "role": "line"
+        },
+        {
+          "id": "handle",
+          "tag": "rect",
+          "x": 6.8,
+          "y": 9.8,
+          "width": 2.4,
+          "height": 4.5,
+          "rx": 1.2,
+          "role": "body",
+          "opacity": 0.88
+        }
+      ]
+    }
+  ]
+}

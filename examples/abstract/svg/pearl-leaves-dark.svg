@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="pearl-leaves-dark-title">
+  <title id="pearl-leaves-dark-title">Pearl Leaves</title>
+  <defs>
+    <linearGradient id="pearl-leaves-dark-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#91E8C7" />
+      <stop offset="1" stop-color="#42BA96" />
+    </linearGradient>
+    <clipPath id="pearl-leaves-dark-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8 1.6477301 C 11.961005 2.377389 11.856768 6.6511054 8 10.090926 C 4.1432316 6.6511054 4.0389946 2.377389 8 1.6477301 Z" />
+    </clipPath>
+    <filter id="pearl-leaves-dark-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="pearl-leaves-dark-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#91E8C7" />
+      <stop offset="1" stop-color="#42BA96" />
+    </linearGradient>
+    <clipPath id="pearl-leaves-dark-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.4024245 1.3553516 C 12.36343 2.0850105 12.259193 6.3587269 8.4024245 9.7985474 C 4.545656 6.3587269 4.4414191 2.0850105 8.4024245 1.3553516 Z" />
+    </clipPath>
+    <filter id="pearl-leaves-dark-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.28857" dy="-1.05336" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="pearl-leaves-dark-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#91E8C7" />
+      <stop offset="1" stop-color="#42BA96" />
+    </linearGradient>
+    <clipPath id="pearl-leaves-dark-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.248712 0.8822732 C 12.209717 1.6119321 12.10548 5.8856485 8.248712 9.325469 C 4.3919435 5.8856485 4.2877066 1.6119321 8.248712 0.8822732 Z" />
+    </clipPath>
+    <filter id="pearl-leaves-dark-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="-0.60362" dy="-1.55101" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="pearl-leaves-dark-layer-3-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#91E8C7" />
+      <stop offset="1" stop-color="#42BA96" />
+    </linearGradient>
+    <clipPath id="pearl-leaves-dark-layer-3-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 7.751288 0.88227322 C 11.712293 1.6119321 11.608056 5.8856485 7.751288 9.325469 C 3.8945195 5.8856485 3.7902825 1.6119321 7.751288 0.88227322 Z" />
+    </clipPath>
+    <filter id="pearl-leaves-dark-layer-3-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="-1.66163" dy="0.09478" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="pearl-leaves-dark-layer-4-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#91E8C7" />
+      <stop offset="1" stop-color="#42BA96" />
+    </linearGradient>
+    <clipPath id="pearl-leaves-dark-layer-4-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 7.5975755 1.3553516 C 11.558581 2.0850105 11.454344 6.3587269 7.5975755 9.7985474 C 3.740807 6.3587269 3.63657 2.0850105 7.5975755 1.3553516 Z" />
+    </clipPath>
+    <filter id="pearl-leaves-dark-layer-4-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="-0.42333" dy="1.60959" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.8" data-layer="0" transform="rotate(0.0 8 8)">
+    <path d="M 8 1.6477301 C 11.961005 2.377389 11.856768 6.6511054 8 10.090926 C 4.1432316 6.6511054 4.0389946 2.377389 8 1.6477301 Z" fill="url(#pearl-leaves-dark-layer-0-paint)" data-part="fill" filter="url(#pearl-leaves-dark-layer-0-inset)" />
+    <path d="M 8 1.6477301 C 11.961005 2.377389 11.856768 6.6511054 8 10.090926 C 4.1432316 6.6511054 4.0389946 2.377389 8 1.6477301 Z" opacity="1" fill="none" stroke="#1A5B40" stroke-width="1" stroke-linejoin="round" clip-path="url(#pearl-leaves-dark-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.6" data-layer="1" transform="rotate(72.0 8 8)">
+    <path d="M 8.4024245 1.3553516 C 12.36343 2.0850105 12.259193 6.3587269 8.4024245 9.7985474 C 4.545656 6.3587269 4.4414191 2.0850105 8.4024245 1.3553516 Z" fill="url(#pearl-leaves-dark-layer-1-paint)" data-part="fill" filter="url(#pearl-leaves-dark-layer-1-inset)" />
+    <path d="M 8.4024245 1.3553516 C 12.36343 2.0850105 12.259193 6.3587269 8.4024245 9.7985474 C 4.545656 6.3587269 4.4414191 2.0850105 8.4024245 1.3553516 Z" opacity="1" fill="none" stroke="#1A5B40" stroke-width="1" stroke-linejoin="round" clip-path="url(#pearl-leaves-dark-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.78" data-layer="2" transform="rotate(144.0 8 8)">
+    <path d="M 8.248712 0.8822732 C 12.209717 1.6119321 12.10548 5.8856485 8.248712 9.325469 C 4.3919435 5.8856485 4.2877066 1.6119321 8.248712 0.8822732 Z" fill="url(#pearl-leaves-dark-layer-2-paint)" data-part="fill" filter="url(#pearl-leaves-dark-layer-2-inset)" />
+    <path d="M 8.248712 0.8822732 C 12.209717 1.6119321 12.10548 5.8856485 8.248712 9.325469 C 4.3919435 5.8856485 4.2877066 1.6119321 8.248712 0.8822732 Z" opacity="1" fill="none" stroke="#1A5B40" stroke-width="1" stroke-linejoin="round" clip-path="url(#pearl-leaves-dark-layer-2-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.62" data-layer="3" transform="rotate(216.0 8 8)">
+    <path d="M 7.751288 0.88227322 C 11.712293 1.6119321 11.608056 5.8856485 7.751288 9.325469 C 3.8945195 5.8856485 3.7902825 1.6119321 7.751288 0.88227322 Z" fill="url(#pearl-leaves-dark-layer-3-paint)" data-part="fill" filter="url(#pearl-leaves-dark-layer-3-inset)" />
+    <path d="M 7.751288 0.88227322 C 11.712293 1.6119321 11.608056 5.8856485 7.751288 9.325469 C 3.8945195 5.8856485 3.7902825 1.6119321 7.751288 0.88227322 Z" opacity="1" fill="none" stroke="#1A5B40" stroke-width="1" stroke-linejoin="round" clip-path="url(#pearl-leaves-dark-layer-3-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.8" data-layer="4" transform="rotate(288.0 8 8)">
+    <path d="M 7.5975755 1.3553516 C 11.558581 2.0850105 11.454344 6.3587269 7.5975755 9.7985474 C 3.740807 6.3587269 3.63657 2.0850105 7.5975755 1.3553516 Z" fill="url(#pearl-leaves-dark-layer-4-paint)" data-part="fill" filter="url(#pearl-leaves-dark-layer-4-inset)" />
+    <path d="M 7.5975755 1.3553516 C 11.558581 2.0850105 11.454344 6.3587269 7.5975755 9.7985474 C 3.740807 6.3587269 3.63657 2.0850105 7.5975755 1.3553516 Z" opacity="1" fill="none" stroke="#1A5B40" stroke-width="1" stroke-linejoin="round" clip-path="url(#pearl-leaves-dark-layer-4-clip)" data-part="edge" />
+  </g>
+</svg>

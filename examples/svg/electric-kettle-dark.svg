@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="electric-kettle-dark-title" data-profile="pack-layered">
+  <title id="electric-kettle-dark-title">Kettle</title>
+  <defs>
+    <linearGradient id="electric-kettle-dark-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#B99EF8" />
+      <stop offset="1" stop-color="#A47AF5" />
+    </linearGradient>
+    <clipPath id="electric-kettle-dark-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M4 7 L1.5 6.5 L3.5 10 L3 12 Q3 14 5 14 L10 14 Q12 14 12 12 Q12 7 10 5 L6 5 Q4 5 4 7 Z" />
+    </clipPath>
+    <filter id="electric-kettle-dark-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="electric-kettle-dark-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#B99EF8" />
+      <stop offset="1" stop-color="#A47AF5" />
+    </linearGradient>
+    <clipPath id="electric-kettle-dark-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="2" rx="1" width="5" x="5" y="4" />
+    </clipPath>
+    <filter id="electric-kettle-dark-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M11 6 C14 5 14.5 7 14 9 C13.5 11 12.5 11 11.5 11" fill="none" stroke="#DBE5FF" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  <g opacity="0.83" data-layer="0">
+    <path d="M4 7 L1.5 6.5 L3.5 10 L3 12 Q3 14 5 14 L10 14 Q12 14 12 12 Q12 7 10 5 L6 5 Q4 5 4 7 Z" fill="url(#electric-kettle-dark-layer-0-paint)" data-part="fill" filter="url(#electric-kettle-dark-layer-0-inset)" />
+    <path d="M4 7 L1.5 6.5 L3.5 10 L3 12 Q3 14 5 14 L10 14 Q12 14 12 12 Q12 7 10 5 L6 5 Q4 5 4 7 Z" opacity="1" fill="none" stroke="#45105B" stroke-width="1" stroke-linejoin="round" clip-path="url(#electric-kettle-dark-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.9" data-layer="1">
+    <rect height="2" rx="1" width="5" x="5" y="4" fill="url(#electric-kettle-dark-layer-1-paint)" data-part="fill" filter="url(#electric-kettle-dark-layer-1-inset)" />
+    <rect height="2" rx="1" width="5" x="5" y="4" opacity="1" fill="none" stroke="#45105B" stroke-width="1" stroke-linejoin="round" clip-path="url(#electric-kettle-dark-layer-1-clip)" data-part="edge" />
+  </g>
+</svg>

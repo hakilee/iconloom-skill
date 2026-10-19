@@ -1,0 +1,93 @@
+{
+  "name": "fire-extinguisher",
+  "strict": true,
+  "brief": "Layered coral icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "grid": "keyline-16",
+    "palette": "coral",
+    "stroke_width": 1,
+    "relief": 0.16,
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "fire-extinguisher",
+      "label": "Extinguisher",
+      "scenario": "소방 장비 위치 표시",
+      "meaning": "위쪽 레버와 호스",
+      "layout": {
+        "keyline": "vertical",
+        "fit": "preserve"
+      },
+      "recognition": {
+        "silhouette": "세로 통과 옆으로 구부러진 호스",
+        "cue": "위쪽 레버와 호스",
+        "confusable": "물병, 펌프",
+        "difference": "레버와 옆 호스가 함께 있는 압력 용기",
+        "cue_ids": [
+          "lever",
+          "hose"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "tank",
+          "tag": "rect",
+          "x": 5,
+          "y": 5,
+          "width": 6,
+          "height": 9,
+          "rx": 2,
+          "opacity": 0.84
+        },
+        {
+          "id": "valve",
+          "tag": "rect",
+          "x": 7,
+          "y": 3,
+          "width": 2,
+          "height": 3,
+          "rx": 0.5,
+          "opacity": 0.9
+        },
+        {
+          "id": "lever",
+          "tag": "path",
+          "d": "M6 3 L10.5 3 L10.5 4.5",
+          "role": "line"
+        },
+        {
+          "id": "hose",
+          "tag": "path",
+          "d": "M9 4 C13 4 13 6 13 8 L12 8",
+          "role": "line"
+        },
+        {
+          "id": "label",
+          "tag": "path",
+          "d": "M7 8 L9 8 M7 10 L9 10",
+          "role": "line",
+          "parent": "tank"
+        }
+      ],
+      "construction": {
+        "joins": [
+          [
+            "tank",
+            "valve"
+          ],
+          [
+            "valve",
+            "lever"
+          ],
+          [
+            "valve",
+            "hose"
+          ]
+        ],
+        "gaps": []
+      }
+    }
+  ]
+}

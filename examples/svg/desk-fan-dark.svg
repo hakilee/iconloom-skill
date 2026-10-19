@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="desk-fan-dark-title" data-profile="pack-layered">
+  <title id="desk-fan-dark-title">Desk fan</title>
+  <defs>
+    <linearGradient id="desk-fan-dark-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#CDBDEA" />
+      <stop offset="1" stop-color="#9E90BF" />
+    </linearGradient>
+    <clipPath id="desk-fan-dark-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="1.5" rx="0.75" width="8" x="4" y="13" />
+    </clipPath>
+    <filter id="desk-fan-dark-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="desk-fan-dark-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#CDBDEA" />
+      <stop offset="1" stop-color="#9E90BF" />
+    </linearGradient>
+    <clipPath id="desk-fan-dark-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <circle cx="8" cy="6.5" r="5" />
+    </clipPath>
+    <filter id="desk-fan-dark-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <clipPath id="desk-fan-dark-material-cage" clipPathUnits="userSpaceOnUse">
+      <circle cx="8" cy="6.5" r="5" />
+    </clipPath>
+    <mask id="desk-fan-dark-material-cage-interior" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16" mask-type="luminance">
+      <circle cx="8" cy="6.5" r="5" fill="white" />
+      <circle cx="8" cy="6.5" r="5" fill="none" stroke="black" stroke-width="1" stroke-linejoin="round" />
+    </mask>
+  </defs>
+  <path d="M8 10.5 L8 13.5" fill="none" stroke="#DBE5FF" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  <g opacity="0.85" data-layer="0">
+    <rect height="1.5" rx="0.75" width="8" x="4" y="13" fill="url(#desk-fan-dark-layer-0-paint)" data-part="fill" filter="url(#desk-fan-dark-layer-0-inset)" />
+    <rect height="1.5" rx="0.75" width="8" x="4" y="13" opacity="1" fill="none" stroke="#3E214B" stroke-width="0.6" stroke-linejoin="round" clip-path="url(#desk-fan-dark-layer-0-clip)" data-part="edge" />
+  </g>
+  <g data-material="cage" opacity="0.84">
+    <g data-layer="1">
+      <circle cx="8" cy="6.5" r="5" fill="url(#desk-fan-dark-layer-1-paint)" data-part="fill" filter="url(#desk-fan-dark-layer-1-inset)" />
+    </g>
+    <g clip-path="url(#desk-fan-dark-material-cage)" data-part="contained" />
+    <g>
+      <circle cx="8" cy="6.5" r="5" opacity="1" fill="none" stroke="#3E214B" stroke-width="1" stroke-linejoin="round" clip-path="url(#desk-fan-dark-layer-1-clip)" data-part="edge" />
+    </g>
+  </g>
+  <g mask="url(#desk-fan-dark-material-cage-interior)" data-part="material-detail">
+    <path d="M8 6.5 C5 6.5 4.5 4.5 6 3.5 M8 6.5 C9 4 11 4 11.5 6 M8 6.5 C10 9 8.5 10 6.5 9.5" fill="none" stroke="#202124" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  </g>
+</svg>

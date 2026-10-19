@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="hot-air-balloon-light-title" data-profile="pack-layered">
+  <title id="hot-air-balloon-light-title">Balloon</title>
+  <defs>
+    <linearGradient id="hot-air-balloon-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#F886B7" />
+      <stop offset="1" stop-color="#EE569F" />
+    </linearGradient>
+    <clipPath id="hot-air-balloon-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M8 1.5 C3 1.5 1.5 5 4 8 L6 11 L10 11 L12 8 C14.5 5 13 1.5 8 1.5 Z" />
+    </clipPath>
+    <filter id="hot-air-balloon-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="hot-air-balloon-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#F886B7" />
+      <stop offset="1" stop-color="#EE569F" />
+    </linearGradient>
+    <clipPath id="hot-air-balloon-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="2" rx="0.5" width="3" x="6.5" y="12.5" />
+    </clipPath>
+    <filter id="hot-air-balloon-light-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <clipPath id="hot-air-balloon-light-material-balloon" clipPathUnits="userSpaceOnUse">
+      <path d="M8 1.5 C3 1.5 1.5 5 4 8 L6 11 L10 11 L12 8 C14.5 5 13 1.5 8 1.5 Z" />
+    </clipPath>
+    <mask id="hot-air-balloon-light-material-balloon-interior" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16" mask-type="luminance">
+      <path d="M8 1.5 C3 1.5 1.5 5 4 8 L6 11 L10 11 L12 8 C14.5 5 13 1.5 8 1.5 Z" fill="white" />
+      <path d="M8 1.5 C3 1.5 1.5 5 4 8 L6 11 L10 11 L12 8 C14.5 5 13 1.5 8 1.5 Z" fill="none" stroke="black" stroke-width="1" stroke-linejoin="round" />
+    </mask>
+  </defs>
+  <g data-material="balloon" opacity="0.85">
+    <g data-layer="0">
+      <path d="M8 1.5 C3 1.5 1.5 5 4 8 L6 11 L10 11 L12 8 C14.5 5 13 1.5 8 1.5 Z" fill="url(#hot-air-balloon-light-layer-0-paint)" data-part="fill" filter="url(#hot-air-balloon-light-layer-0-inset)" />
+    </g>
+    <g clip-path="url(#hot-air-balloon-light-material-balloon)" data-part="contained" />
+    <g>
+      <path d="M8 1.5 C3 1.5 1.5 5 4 8 L6 11 L10 11 L12 8 C14.5 5 13 1.5 8 1.5 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#hot-air-balloon-light-layer-0-clip)" data-part="edge" />
+    </g>
+  </g>
+  <g mask="url(#hot-air-balloon-light-material-balloon-interior)" data-part="material-detail">
+    <path d="M8 2.5 C6 5 6 7 8 10 M8 2.5 C10 5 10 7 8 10" fill="none" stroke="#FFFFFF" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  </g>
+  <path d="M6.5 10.5 L7 13 M9.5 10.5 L9 13" fill="none" stroke="#26334D" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  <g opacity="0.9" data-layer="1">
+    <rect height="2" rx="0.5" width="3" x="6.5" y="12.5" fill="url(#hot-air-balloon-light-layer-1-paint)" data-part="fill" filter="url(#hot-air-balloon-light-layer-1-inset)" />
+    <rect height="2" rx="0.5" width="3" x="6.5" y="12.5" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#hot-air-balloon-light-layer-1-clip)" data-part="edge" />
+  </g>
+</svg>

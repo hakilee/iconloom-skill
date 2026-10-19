@@ -1,0 +1,84 @@
+{
+  "name": "tape-measure",
+  "strict": true,
+  "brief": "Layered lavender icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "palette": "lavender",
+    "stroke_width": 0.85,
+    "relief": 0.16,
+    "light": {
+      "detail": "#3E214B"
+    },
+    "dark": {
+      "detail": "#CDBDEA"
+    },
+    "grid": "keyline-16",
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "tape-measure",
+      "label": "Tape measure",
+      "scenario": "가구 설치 공간의 길이 재기",
+      "meaning": "밖으로 나온 눈금 테이프와 끝 갈고리",
+      "recognition": {
+        "silhouette": "둥근 권취 몸체와 돌출된 띠",
+        "cue": "밖으로 나온 눈금 테이프와 끝 갈고리",
+        "confusable": "카메라",
+        "difference": "가로로 나오는 측정 띠",
+        "cue_ids": [
+          "tape",
+          "ticks",
+          "hook"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "tape",
+          "tag": "rect",
+          "x": 9,
+          "y": 9.3,
+          "width": 5.3,
+          "height": 3.2,
+          "rx": 0.5,
+          "role": "body",
+          "opacity": 0.69
+        },
+        {
+          "id": "ticks",
+          "tag": "path",
+          "d": "M11.2 9.8 L11.2 10.8 M12.8 9.8 L12.8 10.8",
+          "role": "line",
+          "parent": "tape"
+        },
+        {
+          "id": "case",
+          "tag": "rect",
+          "x": 2.1,
+          "y": 2.9,
+          "width": 9.5,
+          "height": 10.1,
+          "rx": 3.3,
+          "role": "body",
+          "opacity": 0.86
+        },
+        {
+          "id": "spool",
+          "tag": "circle",
+          "cx": 6.9,
+          "cy": 7.4,
+          "r": 2.25,
+          "role": "body",
+          "opacity": 0.6
+        },
+        {
+          "id": "hook",
+          "tag": "path",
+          "d": "M14.3 9.5 L14.3 13",
+          "role": "line"
+        }
+      ]
+    }
+  ]
+}

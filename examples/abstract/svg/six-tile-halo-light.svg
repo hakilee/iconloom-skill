@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="six-tile-halo-light-title">
+  <title id="six-tile-halo-light-title">Six Tile Halo</title>
+  <defs>
+    <linearGradient id="six-tile-halo-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#B99EF8" />
+      <stop offset="1" stop-color="#A47AF5" />
+    </linearGradient>
+    <clipPath id="six-tile-halo-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" />
+    </clipPath>
+    <filter id="six-tile-halo-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="six-tile-halo-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#B99EF8" />
+      <stop offset="1" stop-color="#A47AF5" />
+    </linearGradient>
+    <clipPath id="six-tile-halo-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" />
+    </clipPath>
+    <filter id="six-tile-halo-light-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="six-tile-halo-light-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#B99EF8" />
+      <stop offset="1" stop-color="#A47AF5" />
+    </linearGradient>
+    <clipPath id="six-tile-halo-light-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" />
+    </clipPath>
+    <filter id="six-tile-halo-light-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="six-tile-halo-light-layer-3-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#B99EF8" />
+      <stop offset="1" stop-color="#A47AF5" />
+    </linearGradient>
+    <clipPath id="six-tile-halo-light-layer-3-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" />
+    </clipPath>
+    <filter id="six-tile-halo-light-layer-3-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="six-tile-halo-light-layer-4-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#B99EF8" />
+      <stop offset="1" stop-color="#A47AF5" />
+    </linearGradient>
+    <clipPath id="six-tile-halo-light-layer-4-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" />
+    </clipPath>
+    <filter id="six-tile-halo-light-layer-4-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="six-tile-halo-light-layer-5-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#B99EF8" />
+      <stop offset="1" stop-color="#A47AF5" />
+    </linearGradient>
+    <clipPath id="six-tile-halo-light-layer-5-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" />
+    </clipPath>
+    <filter id="six-tile-halo-light-layer-5-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.56" data-layer="0" transform="rotate(0.0 8 8)">
+    <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" fill="url(#six-tile-halo-light-layer-0-paint)" data-part="fill" filter="url(#six-tile-halo-light-layer-0-inset)" />
+    <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#six-tile-halo-light-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.78" data-layer="1" transform="rotate(60.0 8 8)">
+    <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" fill="url(#six-tile-halo-light-layer-1-paint)" data-part="fill" filter="url(#six-tile-halo-light-layer-1-inset)" />
+    <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#six-tile-halo-light-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.56" data-layer="2" transform="rotate(120.0 8 8)">
+    <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" fill="url(#six-tile-halo-light-layer-2-paint)" data-part="fill" filter="url(#six-tile-halo-light-layer-2-inset)" />
+    <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#six-tile-halo-light-layer-2-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.78" data-layer="3" transform="rotate(180.0 8 8)">
+    <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" fill="url(#six-tile-halo-light-layer-3-paint)" data-part="fill" filter="url(#six-tile-halo-light-layer-3-inset)" />
+    <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#six-tile-halo-light-layer-3-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.56" data-layer="4" transform="rotate(240.0 8 8)">
+    <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" fill="url(#six-tile-halo-light-layer-4-paint)" data-part="fill" filter="url(#six-tile-halo-light-layer-4-inset)" />
+    <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#six-tile-halo-light-layer-4-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.78" data-layer="5" transform="rotate(300.0 8 8)">
+    <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" fill="url(#six-tile-halo-light-layer-5-paint)" data-part="fill" filter="url(#six-tile-halo-light-layer-5-inset)" />
+    <rect height="5.99007798" rx="1.33112844" width="5.51467496" x="5.24266252" y="1.53451901" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#six-tile-halo-light-layer-5-clip)" data-part="edge" />
+  </g>
+</svg>

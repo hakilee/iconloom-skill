@@ -1,0 +1,87 @@
+{
+  "name": "paint-brush",
+  "strict": true,
+  "brief": "Layered violet icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "grid": "keyline-16",
+    "palette": "violet",
+    "stroke_width": 1,
+    "relief": 0.16,
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "paint-brush",
+      "label": "Paint brush",
+      "scenario": "넓은 면 칠하기",
+      "meaning": "솔 끝의 홈과 가로 고정부",
+      "layout": {
+        "keyline": "vertical",
+        "fit": "preserve"
+      },
+      "recognition": {
+        "silhouette": "넓은 붓솔과 좁은 긴 손잡이",
+        "cue": "솔 끝의 홈과 가로 고정부",
+        "confusable": "망치, 빗",
+        "difference": "부드러운 사각 솔과 긴 세로 손잡이",
+        "cue_ids": [
+          "bristles",
+          "grooves"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "handle",
+          "tag": "rect",
+          "x": 7,
+          "y": 8,
+          "width": 2,
+          "height": 6,
+          "rx": 1,
+          "opacity": 0.9
+        },
+        {
+          "id": "ferrule",
+          "tag": "rect",
+          "x": 4,
+          "y": 6,
+          "width": 8,
+          "height": 3,
+          "rx": 0.5,
+          "opacity": 0.75
+        },
+        {
+          "id": "bristles",
+          "tag": "rect",
+          "x": 4,
+          "y": 2,
+          "width": 8,
+          "height": 5,
+          "rx": 1,
+          "opacity": 0.87
+        },
+        {
+          "id": "grooves",
+          "tag": "path",
+          "d": "M6 2.5 L6 4 M8 2.5 L8 4 M10 2.5 L10 4",
+          "role": "line",
+          "parent": "bristles"
+        }
+      ],
+      "construction": {
+        "joins": [
+          [
+            "handle",
+            "ferrule"
+          ],
+          [
+            "ferrule",
+            "bristles"
+          ]
+        ],
+        "gaps": []
+      }
+    }
+  ]
+}

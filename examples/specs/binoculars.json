@@ -1,0 +1,113 @@
+{
+  "name": "binoculars",
+  "strict": true,
+  "brief": "Layered sky icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "grid": "keyline-16",
+    "palette": "sky",
+    "stroke_width": 1,
+    "relief": 0.16,
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "binoculars",
+      "label": "Binoculars",
+      "scenario": "야외 관찰 장비 선택",
+      "meaning": "사이의 연결부와 나란한 두 원형 렌즈",
+      "layout": {
+        "keyline": "free",
+        "fit": "preserve"
+      },
+      "recognition": {
+        "silhouette": "두 경통과 아래의 둥근 렌즈",
+        "cue": "사이의 연결부와 나란한 두 원형 렌즈",
+        "confusable": "안경, 두 병",
+        "difference": "높이가 있는 경통과 중앙 연결부",
+        "cue_ids": [
+          "left-tube",
+          "right-tube",
+          "bridge"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "bridge",
+          "tag": "rect",
+          "x": 6,
+          "y": 6,
+          "width": 4,
+          "height": 3,
+          "rx": 1,
+          "opacity": 0.7
+        },
+        {
+          "id": "left-tube",
+          "tag": "rect",
+          "x": 2,
+          "y": 3,
+          "width": 5,
+          "height": 8,
+          "rx": 2,
+          "opacity": 0.78
+        },
+        {
+          "id": "right-tube",
+          "tag": "rect",
+          "x": 9,
+          "y": 3,
+          "width": 5,
+          "height": 8,
+          "rx": 2,
+          "opacity": 0.78
+        },
+        {
+          "id": "left-lens",
+          "tag": "circle",
+          "cx": 4.5,
+          "cy": 10.5,
+          "r": 3,
+          "opacity": 0.9
+        },
+        {
+          "id": "right-lens",
+          "tag": "circle",
+          "cx": 11.5,
+          "cy": 10.5,
+          "r": 3,
+          "opacity": 0.9
+        }
+      ],
+      "construction": {
+        "joins": [
+          [
+            "bridge",
+            "left-tube"
+          ],
+          [
+            "bridge",
+            "right-tube"
+          ],
+          [
+            "left-lens",
+            "left-tube"
+          ],
+          [
+            "right-lens",
+            "right-tube"
+          ]
+        ],
+        "gaps": [
+          {
+            "parts": [
+              "left-lens",
+              "right-lens"
+            ],
+            "min": 0.75
+          }
+        ]
+      }
+    }
+  ]
+}

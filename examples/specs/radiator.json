@@ -1,0 +1,102 @@
+{
+  "name": "radiator",
+  "strict": true,
+  "brief": "Layered bloom icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "palette": "bloom",
+    "stroke_width": 0.85,
+    "relief": 0.16,
+    "light": {
+      "detail": "#A92F66"
+    },
+    "dark": {
+      "detail": "#F886B7"
+    },
+    "grid": "keyline-16",
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "radiator",
+      "label": "Radiator",
+      "scenario": "방별 난방 장치 켜기",
+      "meaning": "동일한 높이의 둥근 방열 핀과 짧은 다리",
+      "recognition": {
+        "silhouette": "가로 배관으로 연결된 세로 핀",
+        "cue": "동일한 높이의 둥근 방열 핀과 짧은 다리",
+        "confusable": "울타리",
+        "difference": "촘촘한 방열 핀과 내부 배관의 조합",
+        "cue_ids": [
+          "fin-a",
+          "fin-b",
+          "fin-c",
+          "fin-d"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "pipe",
+          "tag": "rect",
+          "x": 2,
+          "y": 5.2,
+          "width": 12,
+          "height": 5.5,
+          "rx": 1.5,
+          "role": "body",
+          "opacity": 0.58
+        },
+        {
+          "id": "fin-a",
+          "tag": "rect",
+          "x": 2.8,
+          "y": 2.7,
+          "width": 2.1,
+          "height": 10.6,
+          "rx": 1.05,
+          "role": "body",
+          "opacity": 0.84
+        },
+        {
+          "id": "fin-b",
+          "tag": "rect",
+          "x": 5.6,
+          "y": 2.7,
+          "width": 2.1,
+          "height": 10.6,
+          "rx": 1.05,
+          "role": "body",
+          "opacity": 0.68
+        },
+        {
+          "id": "fin-c",
+          "tag": "rect",
+          "x": 8.4,
+          "y": 2.7,
+          "width": 2.1,
+          "height": 10.6,
+          "rx": 1.05,
+          "role": "body",
+          "opacity": 0.84
+        },
+        {
+          "id": "fin-d",
+          "tag": "rect",
+          "x": 11.2,
+          "y": 2.7,
+          "width": 2.1,
+          "height": 10.6,
+          "rx": 1.05,
+          "role": "body",
+          "opacity": 0.68
+        },
+        {
+          "id": "feet",
+          "tag": "path",
+          "d": "M4 13 L4 14.2 M12 13 L12 14.2",
+          "role": "line"
+        }
+      ]
+    }
+  ]
+}

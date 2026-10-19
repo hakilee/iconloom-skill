@@ -1,0 +1,71 @@
+{
+  "name": "cordless-drill",
+  "strict": true,
+  "brief": "Layered apricot icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "palette": "apricot",
+    "stroke_width": 0.85,
+    "relief": 0.16,
+    "light": {
+      "detail": "#CE7D32"
+    },
+    "dark": {
+      "detail": "#FFB455"
+    },
+    "grid": "keyline-16",
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "cordless-drill",
+      "label": "Drill",
+      "scenario": "벽에 구멍을 뚫는 작업 선택",
+      "meaning": "앞쪽 드릴 비트와 하단 배터리",
+      "recognition": {
+        "silhouette": "가로 모터와 아래로 이어진 손잡이",
+        "cue": "앞쪽 드릴 비트와 하단 배터리",
+        "confusable": "헤어드라이어",
+        "difference": "짧은 직선 비트와 평평한 배터리 베이스",
+        "cue_ids": [
+          "bit",
+          "body"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "body",
+          "tag": "path",
+          "d": "M3 3 L10.7 3 Q12 3 12 4.3 L12 6 Q12 7 10.8 7 L9 7 L8.4 11.6 L9.7 11.6 Q10.4 11.6 10.4 12.4 L10.4 13.5 L4.8 13.5 L4.8 12.3 L6.1 7 L3 7 Q2 7 2 6 L2 4 Q2 3 3 3 Z",
+          "role": "body",
+          "opacity": 0.86
+        },
+        {
+          "id": "housing",
+          "tag": "rect",
+          "x": 2,
+          "y": 3,
+          "width": 10,
+          "height": 2.1,
+          "rx": 1,
+          "role": "surface",
+          "parent": "body",
+          "opacity": 0.35
+        },
+        {
+          "id": "vents",
+          "tag": "path",
+          "d": "M3.8 4.5 L3.8 5.5 M5.5 4.5 L5.5 5.5",
+          "role": "line",
+          "parent": "body"
+        },
+        {
+          "id": "bit",
+          "tag": "path",
+          "d": "M12 5 L14.5 5",
+          "role": "line"
+        }
+      ]
+    }
+  ]
+}

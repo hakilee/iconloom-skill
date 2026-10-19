@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="garden-spade-light-title" data-profile="pack-layered">
+  <title id="garden-spade-light-title">Garden spade</title>
+  <defs>
+    <linearGradient id="garden-spade-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#A9E597" />
+      <stop offset="1" stop-color="#7DCC60" />
+    </linearGradient>
+    <clipPath id="garden-spade-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="5.53044004" rx="0.75908001" width="1.51816001" x="7.24091999" y="4.57975998" />
+    </clipPath>
+    <filter id="garden-spade-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="garden-spade-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#A9E597" />
+      <stop offset="1" stop-color="#7DCC60" />
+    </linearGradient>
+    <clipPath id="garden-spade-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 4.7468 8.26672 L 11.2532 8.26672 L 10.711 12.60432 L 8 14.99 L 5.289 12.60432 Z" />
+    </clipPath>
+    <filter id="garden-spade-light-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="garden-spade-light-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#A9E597" />
+      <stop offset="1" stop-color="#7DCC60" />
+    </linearGradient>
+    <clipPath id="garden-spade-light-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="6.50640004" rx="0.43376" width="1.51816001" x="7.24091999" y="8.26672" />
+    </clipPath>
+    <clipPath id="garden-spade-light-material-blade" clipPathUnits="userSpaceOnUse">
+      <path d="M 4.7468 8.26672 L 11.2532 8.26672 L 10.711 12.60432 L 8 14.99 L 5.289 12.60432 Z" />
+    </clipPath>
+  </defs>
+  <path d="M 5.93964 1.435 L 10.06036 1.435 L 10.06036 2.95316 Q 10.06036 5.2304 8 5.2304 Q 5.93964 5.2304 5.93964 2.95316 L 5.93964 1.435" fill="none" stroke="#26334D" opacity="1" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  <g opacity="0.88" data-layer="0">
+    <rect height="5.53044004" rx="0.75908001" width="1.51816001" x="7.24091999" y="4.57975998" fill="url(#garden-spade-light-layer-0-paint)" data-part="fill" filter="url(#garden-spade-light-layer-0-inset)" />
+    <rect height="5.53044004" rx="0.75908001" width="1.51816001" x="7.24091999" y="4.57975998" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="0.6182" stroke-linejoin="round" clip-path="url(#garden-spade-light-layer-0-clip)" data-part="edge" />
+  </g>
+  <g data-material="blade" opacity="0.86">
+    <g data-layer="1">
+      <path d="M 4.7468 8.26672 L 11.2532 8.26672 L 10.711 12.60432 L 8 14.99 L 5.289 12.60432 Z" fill="url(#garden-spade-light-layer-1-paint)" data-part="fill" filter="url(#garden-spade-light-layer-1-inset)" />
+    </g>
+    <g clip-path="url(#garden-spade-light-material-blade)" data-part="contained">
+      <g opacity="0.35" data-layer="2">
+        <rect height="6.50640004" rx="0.43376" width="1.51816001" x="7.24091999" y="8.26672" fill="url(#garden-spade-light-layer-2-paint)" data-part="fill" />
+      </g>
+    </g>
+    <g>
+      <path d="M 4.7468 8.26672 L 11.2532 8.26672 L 10.711 12.60432 L 8 14.99 L 5.289 12.60432 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#garden-spade-light-layer-1-clip)" data-part="edge" />
+    </g>
+  </g>
+</svg>

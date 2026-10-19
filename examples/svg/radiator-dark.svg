@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="radiator-dark-title" data-profile="pack-layered">
+  <title id="radiator-dark-title">Radiator</title>
+  <defs>
+    <linearGradient id="radiator-dark-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#F886B7" />
+      <stop offset="1" stop-color="#EE569F" />
+    </linearGradient>
+    <clipPath id="radiator-dark-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="5.49083334" rx="1.4975" width="11.98" x="2.01" y="4.5429165" />
+    </clipPath>
+    <filter id="radiator-dark-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="radiator-dark-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#F886B7" />
+      <stop offset="1" stop-color="#EE569F" />
+    </linearGradient>
+    <clipPath id="radiator-dark-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="10.58233334" rx="1.04825" width="2.0965" x="2.80866666" y="2.04708317" />
+    </clipPath>
+    <filter id="radiator-dark-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="radiator-dark-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#F886B7" />
+      <stop offset="1" stop-color="#EE569F" />
+    </linearGradient>
+    <clipPath id="radiator-dark-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="10.58233334" rx="1.04825" width="2.0965" x="5.604" y="2.04708317" />
+    </clipPath>
+    <filter id="radiator-dark-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="radiator-dark-layer-3-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#F886B7" />
+      <stop offset="1" stop-color="#EE569F" />
+    </linearGradient>
+    <clipPath id="radiator-dark-layer-3-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="10.58233334" rx="1.04825" width="2.0965" x="8.39933333" y="2.04708317" />
+    </clipPath>
+    <filter id="radiator-dark-layer-3-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="radiator-dark-layer-4-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#F886B7" />
+      <stop offset="1" stop-color="#EE569F" />
+    </linearGradient>
+    <clipPath id="radiator-dark-layer-4-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="10.58233334" rx="1.04825" width="2.0965" x="11.19466667" y="2.04708317" />
+    </clipPath>
+    <filter id="radiator-dark-layer-4-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.58" data-layer="0">
+    <rect height="5.49083334" rx="1.4975" width="11.98" x="2.01" y="4.5429165" fill="url(#radiator-dark-layer-0-paint)" data-part="fill" filter="url(#radiator-dark-layer-0-inset)" />
+    <rect height="5.49083334" rx="1.4975" width="11.98" x="2.01" y="4.5429165" opacity="1" fill="none" stroke="#A92F66" stroke-width="1" stroke-linejoin="round" clip-path="url(#radiator-dark-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.84" data-layer="1">
+    <rect height="10.58233334" rx="1.04825" width="2.0965" x="2.80866666" y="2.04708317" fill="url(#radiator-dark-layer-1-paint)" data-part="fill" filter="url(#radiator-dark-layer-1-inset)" />
+    <rect height="10.58233334" rx="1.04825" width="2.0965" x="2.80866666" y="2.04708317" opacity="1" fill="none" stroke="#A92F66" stroke-width="1" stroke-linejoin="round" clip-path="url(#radiator-dark-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.68" data-layer="2">
+    <rect height="10.58233334" rx="1.04825" width="2.0965" x="5.604" y="2.04708317" fill="url(#radiator-dark-layer-2-paint)" data-part="fill" filter="url(#radiator-dark-layer-2-inset)" />
+    <rect height="10.58233334" rx="1.04825" width="2.0965" x="5.604" y="2.04708317" opacity="1" fill="none" stroke="#A92F66" stroke-width="1" stroke-linejoin="round" clip-path="url(#radiator-dark-layer-2-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.84" data-layer="3">
+    <rect height="10.58233334" rx="1.04825" width="2.0965" x="8.39933333" y="2.04708317" fill="url(#radiator-dark-layer-3-paint)" data-part="fill" filter="url(#radiator-dark-layer-3-inset)" />
+    <rect height="10.58233334" rx="1.04825" width="2.0965" x="8.39933333" y="2.04708317" opacity="1" fill="none" stroke="#A92F66" stroke-width="1" stroke-linejoin="round" clip-path="url(#radiator-dark-layer-3-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.68" data-layer="4">
+    <rect height="10.58233334" rx="1.04825" width="2.0965" x="11.19466667" y="2.04708317" fill="url(#radiator-dark-layer-4-paint)" data-part="fill" filter="url(#radiator-dark-layer-4-inset)" />
+    <rect height="10.58233334" rx="1.04825" width="2.0965" x="11.19466667" y="2.04708317" opacity="1" fill="none" stroke="#A92F66" stroke-width="1" stroke-linejoin="round" clip-path="url(#radiator-dark-layer-4-clip)" data-part="edge" />
+  </g>
+  <path d="M 4.0066667 12.329916 L 4.0066667 13.527916 M 11.993333 12.329916 L 11.993333 13.527916" fill="none" stroke="#DBE5FF" opacity="1" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+</svg>

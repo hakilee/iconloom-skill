@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="cordless-drill-light-title" data-profile="pack-layered">
+  <title id="cordless-drill-light-title">Drill</title>
+  <defs>
+    <linearGradient id="cordless-drill-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFB455" />
+      <stop offset="1" stop-color="#FF9C2C" />
+    </linearGradient>
+    <clipPath id="cordless-drill-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 2.9343999 3.1469 L 10.05228 3.1469 Q 11.254 3.1469 11.254 4.34862 L 11.254 5.9201 Q 11.254 6.8445 10.14472 6.8445 L 8.4808 6.8445 L 7.92616 11.09674 L 9.12788 11.09674 Q 9.77496 11.09674 9.77496 11.83626 L 9.77496 12.8531 L 4.59832 12.8531 L 4.59832 11.74382 L 5.80004 6.8445 L 2.9343999 6.8445 Q 2.01 6.8445 2.01 5.9201 L 2.01 4.0713 Q 2.01 3.1469 2.9343999 3.1469 Z" />
+    </clipPath>
+    <filter id="cordless-drill-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="cordless-drill-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFB455" />
+      <stop offset="1" stop-color="#FF9C2C" />
+    </linearGradient>
+    <clipPath id="cordless-drill-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="1.94124002" rx="0.92440001" width="9.24400009" x="2.00999995" y="3.1469" />
+    </clipPath>
+    <clipPath id="cordless-drill-light-material-body" clipPathUnits="userSpaceOnUse">
+      <path d="M 2.9343999 3.1469 L 10.05228 3.1469 Q 11.254 3.1469 11.254 4.34862 L 11.254 5.9201 Q 11.254 6.8445 10.14472 6.8445 L 8.4808 6.8445 L 7.92616 11.09674 L 9.12788 11.09674 Q 9.77496 11.09674 9.77496 11.83626 L 9.77496 12.8531 L 4.59832 12.8531 L 4.59832 11.74382 L 5.80004 6.8445 L 2.9343999 6.8445 Q 2.01 6.8445 2.01 5.9201 L 2.01 4.0713 Q 2.01 3.1469 2.9343999 3.1469 Z" />
+    </clipPath>
+    <mask id="cordless-drill-light-material-body-interior" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16" mask-type="luminance">
+      <path d="M 2.9343999 3.1469 L 10.05228 3.1469 Q 11.254 3.1469 11.254 4.34862 L 11.254 5.9201 Q 11.254 6.8445 10.14472 6.8445 L 8.4808 6.8445 L 7.92616 11.09674 L 9.12788 11.09674 Q 9.77496 11.09674 9.77496 11.83626 L 9.77496 12.8531 L 4.59832 12.8531 L 4.59832 11.74382 L 5.80004 6.8445 L 2.9343999 6.8445 Q 2.01 6.8445 2.01 5.9201 L 2.01 4.0713 Q 2.01 3.1469 2.9343999 3.1469 Z" fill="white" />
+      <path d="M 2.9343999 3.1469 L 10.05228 3.1469 Q 11.254 3.1469 11.254 4.34862 L 11.254 5.9201 Q 11.254 6.8445 10.14472 6.8445 L 8.4808 6.8445 L 7.92616 11.09674 L 9.12788 11.09674 Q 9.77496 11.09674 9.77496 11.83626 L 9.77496 12.8531 L 4.59832 12.8531 L 4.59832 11.74382 L 5.80004 6.8445 L 2.9343999 6.8445 Q 2.01 6.8445 2.01 5.9201 L 2.01 4.0713 Q 2.01 3.1469 2.9343999 3.1469 Z" fill="none" stroke="black" stroke-width="1" stroke-linejoin="round" />
+    </mask>
+  </defs>
+  <g data-material="body" opacity="0.86">
+    <g data-layer="0">
+      <path d="M 2.9343999 3.1469 L 10.05228 3.1469 Q 11.254 3.1469 11.254 4.34862 L 11.254 5.9201 Q 11.254 6.8445 10.14472 6.8445 L 8.4808 6.8445 L 7.92616 11.09674 L 9.12788 11.09674 Q 9.77496 11.09674 9.77496 11.83626 L 9.77496 12.8531 L 4.59832 12.8531 L 4.59832 11.74382 L 5.80004 6.8445 L 2.9343999 6.8445 Q 2.01 6.8445 2.01 5.9201 L 2.01 4.0713 Q 2.01 3.1469 2.9343999 3.1469 Z" fill="url(#cordless-drill-light-layer-0-paint)" data-part="fill" filter="url(#cordless-drill-light-layer-0-inset)" />
+    </g>
+    <g clip-path="url(#cordless-drill-light-material-body)" data-part="contained">
+      <g opacity="0.35" data-layer="1">
+        <rect height="1.94124002" rx="0.92440001" width="9.24400009" x="2.00999995" y="3.1469" fill="url(#cordless-drill-light-layer-1-paint)" data-part="fill" />
+      </g>
+    </g>
+    <g>
+      <path d="M 2.9343999 3.1469 L 10.05228 3.1469 Q 11.254 3.1469 11.254 4.34862 L 11.254 5.9201 Q 11.254 6.8445 10.14472 6.8445 L 8.4808 6.8445 L 7.92616 11.09674 L 9.12788 11.09674 Q 9.77496 11.09674 9.77496 11.83626 L 9.77496 12.8531 L 4.59832 12.8531 L 4.59832 11.74382 L 5.80004 6.8445 L 2.9343999 6.8445 Q 2.01 6.8445 2.01 5.9201 L 2.01 4.0713 Q 2.01 3.1469 2.9343999 3.1469 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#cordless-drill-light-layer-0-clip)" data-part="edge" />
+    </g>
+  </g>
+  <g mask="url(#cordless-drill-light-material-body-interior)" data-part="material-detail">
+    <path d="M 3.67392 4.5335 L 3.67392 5.4579 M 5.2454 4.5335 L 5.2454 5.4579" fill="none" stroke="#CE7D32" opacity="1" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  </g>
+  <path d="M 11.254 4.9957 L 13.565 4.9957" fill="none" stroke="#26334D" opacity="1" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+</svg>

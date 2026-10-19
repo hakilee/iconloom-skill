@@ -1,0 +1,78 @@
+{
+  "name": "padlock",
+  "strict": true,
+  "brief": "Layered mint icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "grid": "keyline-16",
+    "palette": "mint",
+    "stroke_width": 1,
+    "relief": 0.16,
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "padlock",
+      "label": "Padlock",
+      "scenario": "물리적 잠금 장치 표시",
+      "meaning": "열쇠구멍과 위쪽 고리",
+      "layout": {
+        "keyline": "vertical",
+        "fit": "preserve"
+      },
+      "recognition": {
+        "silhouette": "둥근 고리 위의 사각 몸체",
+        "cue": "열쇠구멍과 위쪽 고리",
+        "confusable": "가방, 사람 얼굴",
+        "difference": "큰 U자 고리와 단일 중앙 열쇠구멍",
+        "cue_ids": [
+          "shackle",
+          "key-circle"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "shackle",
+          "tag": "path",
+          "d": "M5 8 L5 4.5 C5 1 11 1 11 4.5 L11 8",
+          "role": "line"
+        },
+        {
+          "id": "body",
+          "tag": "rect",
+          "x": 3,
+          "y": 6,
+          "width": 10,
+          "height": 8,
+          "rx": 2,
+          "opacity": 0.86
+        },
+        {
+          "id": "key-circle",
+          "tag": "circle",
+          "cx": 8,
+          "cy": 9,
+          "r": 0.8,
+          "role": "line",
+          "parent": "body"
+        },
+        {
+          "id": "key-slot",
+          "tag": "path",
+          "d": "M8 9.5 L8 11.5",
+          "role": "line",
+          "parent": "body"
+        }
+      ],
+      "construction": {
+        "joins": [
+          [
+            "shackle",
+            "body"
+          ]
+        ],
+        "gaps": []
+      }
+    }
+  ]
+}

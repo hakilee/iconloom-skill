@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="five-fold-whorl-light-title">
+  <title id="five-fold-whorl-light-title">Five Fold Whorl</title>
+  <defs>
+    <linearGradient id="five-fold-whorl-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#A9E597" />
+      <stop offset="1" stop-color="#7DCC60" />
+    </linearGradient>
+    <clipPath id="five-fold-whorl-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 7.8475732 1.51 C 11.086903 1.51 12.909026 3.7370393 12.301652 6.3689949 C 11.593048 9.1021796 8.8598638 10.11447 6.8352826 9.1021796 C 9.4672382 7.8874309 9.3660091 5.5591624 7.8475732 4.5468718 C 6.5315954 3.6358103 6.6328244 2.0161453 7.8475732 1.51 Z" />
+    </clipPath>
+    <filter id="five-fold-whorl-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="five-fold-whorl-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#A9E597" />
+      <stop offset="1" stop-color="#7DCC60" />
+    </linearGradient>
+    <clipPath id="five-fold-whorl-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.038387 1.5928547 C 11.277717 1.5928547 13.09984 3.8198941 12.492466 6.4518497 C 11.783862 9.1850344 9.0506777 10.197325 7.0260964 9.1850344 C 9.658052 7.9702856 9.556823 5.6420172 8.038387 4.6297266 C 6.7224092 3.718665 6.8236383 2.099 8.038387 1.5928547 Z" />
+    </clipPath>
+    <filter id="five-fold-whorl-light-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="five-fold-whorl-light-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#A9E597" />
+      <stop offset="1" stop-color="#7DCC60" />
+    </linearGradient>
+    <clipPath id="five-fold-whorl-light-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.1761513 1.4369835 C 11.415481 1.4369835 13.237604 3.6640228 12.63023 6.2959784 C 11.921627 9.0291631 9.1884419 10.041454 7.1638607 9.0291631 C 9.7958163 7.8144144 9.6945872 5.486146 8.1761513 4.4738553 C 6.8601735 3.5627938 6.9614026 1.9431288 8.1761513 1.4369835 Z" />
+    </clipPath>
+    <filter id="five-fold-whorl-light-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="five-fold-whorl-light-layer-3-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#A9E597" />
+      <stop offset="1" stop-color="#7DCC60" />
+    </linearGradient>
+    <clipPath id="five-fold-whorl-light-layer-3-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.0704805 1.257795 C 11.30981 1.257795 13.131934 3.4848344 12.524559 6.11679 C 11.815956 8.8499747 9.0827711 9.8622653 7.0581898 8.8499747 C 9.6901454 7.6352259 9.5889164 5.3069575 8.0704805 4.2946668 C 6.7545027 3.3836053 6.8557317 1.7639403 8.0704805 1.257795 Z" />
+    </clipPath>
+    <filter id="five-fold-whorl-light-layer-3-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="five-fold-whorl-light-layer-4-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#A9E597" />
+      <stop offset="1" stop-color="#7DCC60" />
+    </linearGradient>
+    <clipPath id="five-fold-whorl-light-layer-4-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 7.867408 1.3029217 C 11.106738 1.3029217 12.928861 3.529961 12.321487 6.1619167 C 11.612883 8.8951013 8.8796986 9.9073919 6.8551174 8.8951013 C 9.487073 7.6803526 9.3858439 5.3520841 7.867408 4.3397935 C 6.5514302 3.428732 6.6526593 1.809067 7.867408 1.3029217 Z" />
+    </clipPath>
+    <filter id="five-fold-whorl-light-layer-4-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.8" data-layer="0" transform="rotate(0.0 8 8)">
+    <path d="M 7.8475732 1.51 C 11.086903 1.51 12.909026 3.7370393 12.301652 6.3689949 C 11.593048 9.1021796 8.8598638 10.11447 6.8352826 9.1021796 C 9.4672382 7.8874309 9.3660091 5.5591624 7.8475732 4.5468718 C 6.5315954 3.6358103 6.6328244 2.0161453 7.8475732 1.51 Z" fill="url(#five-fold-whorl-light-layer-0-paint)" data-part="fill" filter="url(#five-fold-whorl-light-layer-0-inset)" />
+    <path d="M 7.8475732 1.51 C 11.086903 1.51 12.909026 3.7370393 12.301652 6.3689949 C 11.593048 9.1021796 8.8598638 10.11447 6.8352826 9.1021796 C 9.4672382 7.8874309 9.3660091 5.5591624 7.8475732 4.5468718 C 6.5315954 3.6358103 6.6328244 2.0161453 7.8475732 1.51 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-fold-whorl-light-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.6" data-layer="1" transform="rotate(72.0 8 8)">
+    <path d="M 8.038387 1.5928547 C 11.277717 1.5928547 13.09984 3.8198941 12.492466 6.4518497 C 11.783862 9.1850344 9.0506777 10.197325 7.0260964 9.1850344 C 9.658052 7.9702856 9.556823 5.6420172 8.038387 4.6297266 C 6.7224092 3.718665 6.8236383 2.099 8.038387 1.5928547 Z" fill="url(#five-fold-whorl-light-layer-1-paint)" data-part="fill" filter="url(#five-fold-whorl-light-layer-1-inset)" />
+    <path d="M 8.038387 1.5928547 C 11.277717 1.5928547 13.09984 3.8198941 12.492466 6.4518497 C 11.783862 9.1850344 9.0506777 10.197325 7.0260964 9.1850344 C 9.658052 7.9702856 9.556823 5.6420172 8.038387 4.6297266 C 6.7224092 3.718665 6.8236383 2.099 8.038387 1.5928547 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-fold-whorl-light-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.78" data-layer="2" transform="rotate(144.0 8 8)">
+    <path d="M 8.1761513 1.4369835 C 11.415481 1.4369835 13.237604 3.6640228 12.63023 6.2959784 C 11.921627 9.0291631 9.1884419 10.041454 7.1638607 9.0291631 C 9.7958163 7.8144144 9.6945872 5.486146 8.1761513 4.4738553 C 6.8601735 3.5627938 6.9614026 1.9431288 8.1761513 1.4369835 Z" fill="url(#five-fold-whorl-light-layer-2-paint)" data-part="fill" filter="url(#five-fold-whorl-light-layer-2-inset)" />
+    <path d="M 8.1761513 1.4369835 C 11.415481 1.4369835 13.237604 3.6640228 12.63023 6.2959784 C 11.921627 9.0291631 9.1884419 10.041454 7.1638607 9.0291631 C 9.7958163 7.8144144 9.6945872 5.486146 8.1761513 4.4738553 C 6.8601735 3.5627938 6.9614026 1.9431288 8.1761513 1.4369835 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-fold-whorl-light-layer-2-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.62" data-layer="3" transform="rotate(216.0 8 8)">
+    <path d="M 8.0704805 1.257795 C 11.30981 1.257795 13.131934 3.4848344 12.524559 6.11679 C 11.815956 8.8499747 9.0827711 9.8622653 7.0581898 8.8499747 C 9.6901454 7.6352259 9.5889164 5.3069575 8.0704805 4.2946668 C 6.7545027 3.3836053 6.8557317 1.7639403 8.0704805 1.257795 Z" fill="url(#five-fold-whorl-light-layer-3-paint)" data-part="fill" filter="url(#five-fold-whorl-light-layer-3-inset)" />
+    <path d="M 8.0704805 1.257795 C 11.30981 1.257795 13.131934 3.4848344 12.524559 6.11679 C 11.815956 8.8499747 9.0827711 9.8622653 7.0581898 8.8499747 C 9.6901454 7.6352259 9.5889164 5.3069575 8.0704805 4.2946668 C 6.7545027 3.3836053 6.8557317 1.7639403 8.0704805 1.257795 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-fold-whorl-light-layer-3-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.8" data-layer="4" transform="rotate(288.0 8 8)">
+    <path d="M 7.867408 1.3029217 C 11.106738 1.3029217 12.928861 3.529961 12.321487 6.1619167 C 11.612883 8.8951013 8.8796986 9.9073919 6.8551174 8.8951013 C 9.487073 7.6803526 9.3858439 5.3520841 7.867408 4.3397935 C 6.5514302 3.428732 6.6526593 1.809067 7.867408 1.3029217 Z" fill="url(#five-fold-whorl-light-layer-4-paint)" data-part="fill" filter="url(#five-fold-whorl-light-layer-4-inset)" />
+    <path d="M 7.867408 1.3029217 C 11.106738 1.3029217 12.928861 3.529961 12.321487 6.1619167 C 11.612883 8.8951013 8.8796986 9.9073919 6.8551174 8.8951013 C 9.487073 7.6803526 9.3858439 5.3520841 7.867408 4.3397935 C 6.5514302 3.428732 6.6526593 1.809067 7.867408 1.3029217 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-fold-whorl-light-layer-4-clip)" data-part="edge" />
+  </g>
+</svg>

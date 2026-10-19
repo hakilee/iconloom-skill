@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="c-clamp-dark-title" data-profile="pack-layered">
+  <title id="c-clamp-dark-title">Clamp</title>
+  <defs>
+    <linearGradient id="c-clamp-dark-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFE742" />
+      <stop offset="0.43" stop-color="#FFE236" />
+      <stop offset="1" stop-color="#FFCD0F" />
+    </linearGradient>
+    <clipPath id="c-clamp-dark-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 12.39979 2.01 L 5.6027314 2.01 Q 3.1752104 2.01 3.1752104 4.4375209 L 3.1752104 10.069369 Q 3.1752104 12.49689 5.6027314 12.49689 L 12.39979 12.49689 L 12.39979 10.069369 L 6.0882356 10.069369 L 6.0882356 4.4375209 L 12.39979 4.4375209 Z" />
+    </clipPath>
+    <filter id="c-clamp-dark-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="c-clamp-dark-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFE742" />
+      <stop offset="0.43" stop-color="#FFE236" />
+      <stop offset="1" stop-color="#FFCD0F" />
+    </linearGradient>
+    <clipPath id="c-clamp-dark-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="1.74781507" rx="0.48550419" width="2.3304201" x="9.2925632" y="5.60273093" />
+    </clipPath>
+    <filter id="c-clamp-dark-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.84" data-layer="0">
+    <path d="M 12.39979 2.01 L 5.6027314 2.01 Q 3.1752104 2.01 3.1752104 4.4375209 L 3.1752104 10.069369 Q 3.1752104 12.49689 5.6027314 12.49689 L 12.39979 12.49689 L 12.39979 10.069369 L 6.0882356 10.069369 L 6.0882356 4.4375209 L 12.39979 4.4375209 Z" fill="url(#c-clamp-dark-layer-0-paint)" data-part="fill" filter="url(#c-clamp-dark-layer-0-inset)" />
+    <path d="M 12.39979 2.01 L 5.6027314 2.01 Q 3.1752104 2.01 3.1752104 4.4375209 L 3.1752104 10.069369 Q 3.1752104 12.49689 5.6027314 12.49689 L 12.39979 12.49689 L 12.39979 10.069369 L 6.0882356 10.069369 L 6.0882356 4.4375209 L 12.39979 4.4375209 Z" opacity="1" fill="none" stroke="#A07E20" stroke-width="1" stroke-linejoin="round" clip-path="url(#c-clamp-dark-layer-0-clip)" data-part="edge" />
+  </g>
+  <path d="M 10.457773 4.4375209 L 10.457773 13.565 M 8.5157565 13.565 L 12.39979 13.565" fill="none" stroke="#DBE5FF" opacity="1" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  <g opacity="0.9" data-layer="1">
+    <rect height="1.74781507" rx="0.48550419" width="2.3304201" x="9.2925632" y="5.60273093" fill="url(#c-clamp-dark-layer-1-paint)" data-part="fill" filter="url(#c-clamp-dark-layer-1-inset)" />
+    <rect height="1.74781507" rx="0.48550419" width="2.3304201" x="9.2925632" y="5.60273093" opacity="1" fill="none" stroke="#A07E20" stroke-width="0.8478" stroke-linejoin="round" clip-path="url(#c-clamp-dark-layer-1-clip)" data-part="edge" />
+  </g>
+</svg>

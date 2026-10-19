@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="six-loop-rosette-dark-title">
+  <title id="six-loop-rosette-dark-title">Six Loop Rosette</title>
+  <defs>
+    <linearGradient id="six-loop-rosette-dark-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFE742" />
+      <stop offset="0.43" stop-color="#FFE236" />
+      <stop offset="1" stop-color="#FFCD0F" />
+    </linearGradient>
+    <clipPath id="six-loop-rosette-dark-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" />
+    </clipPath>
+    <filter id="six-loop-rosette-dark-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="six-loop-rosette-dark-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFE742" />
+      <stop offset="0.43" stop-color="#FFE236" />
+      <stop offset="1" stop-color="#FFCD0F" />
+    </linearGradient>
+    <clipPath id="six-loop-rosette-dark-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" />
+    </clipPath>
+    <filter id="six-loop-rosette-dark-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.47942" dy="-0.76244" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="six-loop-rosette-dark-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFE742" />
+      <stop offset="0.43" stop-color="#FFE236" />
+      <stop offset="1" stop-color="#FFCD0F" />
+    </linearGradient>
+    <clipPath id="six-loop-rosette-dark-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" />
+    </clipPath>
+    <filter id="six-loop-rosette-dark-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0.07942" dy="-1.66244" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="six-loop-rosette-dark-layer-3-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFE742" />
+      <stop offset="0.43" stop-color="#FFE236" />
+      <stop offset="1" stop-color="#FFCD0F" />
+    </linearGradient>
+    <clipPath id="six-loop-rosette-dark-layer-3-clip" clipPathUnits="userSpaceOnUse">
+      <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" />
+    </clipPath>
+    <filter id="six-loop-rosette-dark-layer-3-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="-1.4" dy="-0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="six-loop-rosette-dark-layer-4-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFE742" />
+      <stop offset="0.43" stop-color="#FFE236" />
+      <stop offset="1" stop-color="#FFCD0F" />
+    </linearGradient>
+    <clipPath id="six-loop-rosette-dark-layer-4-clip" clipPathUnits="userSpaceOnUse">
+      <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" />
+    </clipPath>
+    <filter id="six-loop-rosette-dark-layer-4-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="-1.47942" dy="0.76244" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="six-loop-rosette-dark-layer-5-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFE742" />
+      <stop offset="0.43" stop-color="#FFE236" />
+      <stop offset="1" stop-color="#FFCD0F" />
+    </linearGradient>
+    <clipPath id="six-loop-rosette-dark-layer-5-clip" clipPathUnits="userSpaceOnUse">
+      <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" />
+    </clipPath>
+    <filter id="six-loop-rosette-dark-layer-5-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="-0.07942" dy="1.66244" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.82" data-layer="0" transform="rotate(0.0 8 8)">
+    <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" fill="url(#six-loop-rosette-dark-layer-0-paint)" data-part="fill" filter="url(#six-loop-rosette-dark-layer-0-inset)" />
+    <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" opacity="1" fill="none" stroke="#A07E20" stroke-width="1" stroke-linejoin="round" clip-path="url(#six-loop-rosette-dark-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.6" data-layer="1" transform="rotate(60.0 8 8)">
+    <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" fill="url(#six-loop-rosette-dark-layer-1-paint)" data-part="fill" filter="url(#six-loop-rosette-dark-layer-1-inset)" />
+    <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" opacity="1" fill="none" stroke="#A07E20" stroke-width="1" stroke-linejoin="round" clip-path="url(#six-loop-rosette-dark-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.75" data-layer="2" transform="rotate(120.0 8 8)">
+    <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" fill="url(#six-loop-rosette-dark-layer-2-paint)" data-part="fill" filter="url(#six-loop-rosette-dark-layer-2-inset)" />
+    <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" opacity="1" fill="none" stroke="#A07E20" stroke-width="1" stroke-linejoin="round" clip-path="url(#six-loop-rosette-dark-layer-2-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.6" data-layer="3" transform="rotate(180.0 8 8)">
+    <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" fill="url(#six-loop-rosette-dark-layer-3-paint)" data-part="fill" filter="url(#six-loop-rosette-dark-layer-3-inset)" />
+    <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" opacity="1" fill="none" stroke="#A07E20" stroke-width="1" stroke-linejoin="round" clip-path="url(#six-loop-rosette-dark-layer-3-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.82" data-layer="4" transform="rotate(240.0 8 8)">
+    <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" fill="url(#six-loop-rosette-dark-layer-4-paint)" data-part="fill" filter="url(#six-loop-rosette-dark-layer-4-inset)" />
+    <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" opacity="1" fill="none" stroke="#A07E20" stroke-width="1" stroke-linejoin="round" clip-path="url(#six-loop-rosette-dark-layer-4-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.6" data-layer="5" transform="rotate(300.0 8 8)">
+    <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" fill="url(#six-loop-rosette-dark-layer-5-paint)" data-part="fill" filter="url(#six-loop-rosette-dark-layer-5-inset)" />
+    <ellipse cx="8.0" cy="4.59834483" rx="2.3722069" ry="3.08834483" opacity="1" fill="none" stroke="#A07E20" stroke-width="1" stroke-linejoin="round" clip-path="url(#six-loop-rosette-dark-layer-5-clip)" data-part="edge" />
+  </g>
+</svg>

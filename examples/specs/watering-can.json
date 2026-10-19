@@ -1,0 +1,64 @@
+{
+  "name": "watering-can",
+  "strict": true,
+  "brief": "Layered mint icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "palette": "mint",
+    "stroke_width": 0.85,
+    "relief": 0.16,
+    "light": {
+      "detail": "#1A5B40"
+    },
+    "dark": {
+      "detail": "#91E8C7"
+    },
+    "grid": "keyline-16",
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "watering-can",
+      "label": "Watering can",
+      "scenario": "화분에 수동으로 물주기",
+      "meaning": "뒤쪽 손잡이와 긴 주둥이",
+      "recognition": {
+        "silhouette": "물통과 비스듬히 뻗은 주둥이",
+        "cue": "뒤쪽 손잡이와 긴 주둥이",
+        "confusable": "주전자",
+        "difference": "긴 위쪽 주둥이와 열린 손잡이의 배치",
+        "cue_ids": [
+          "body",
+          "handle"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "handle",
+          "tag": "path",
+          "d": "M3.5 7 C.8 5.2 1.1 2.8 3.6 3 C5.2 3.1 5.6 4.6 5.6 5.8",
+          "role": "line"
+        },
+        {
+          "id": "body",
+          "tag": "path",
+          "d": "M4.5 5.8 L9.3 5.8 Q10.5 5.8 10.5 7 L10.5 8.2 L13.4 5.1 L14.7 6.2 L10.5 11 L10.5 12 Q10.5 13.5 9 13.5 L4.5 13.5 Q3 13.5 3 12 L3 7.3 Q3 5.8 4.5 5.8 Z",
+          "role": "body",
+          "opacity": 0.85
+        },
+        {
+          "id": "water",
+          "tag": "rect",
+          "x": 3,
+          "y": 9.8,
+          "width": 7.5,
+          "height": 3.7,
+          "rx": 1.5,
+          "role": "surface",
+          "parent": "body",
+          "opacity": 0.35
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "open-wrench",
+  "strict": true,
+  "brief": "Layered lagoon icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "palette": "lagoon",
+    "stroke_width": 0.85,
+    "relief": 0.16,
+    "light": {
+      "detail": "#033F43"
+    },
+    "dark": {
+      "detail": "#75D9E9"
+    },
+    "grid": "keyline-16",
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "open-wrench",
+      "label": "Wrench",
+      "scenario": "볼트 조임 도구 선택",
+      "meaning": "갈라진 U형 턱",
+      "recognition": {
+        "silhouette": "위가 열린 턱과 긴 손잡이",
+        "cue": "갈라진 U형 턱",
+        "confusable": "숟가락",
+        "difference": "손잡이 끝이 아닌 위쪽의 명확한 개방부",
+        "cue_ids": [
+          "body"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "body",
+          "tag": "path",
+          "d": "M5 2 L6.2 5.1 L9.8 5.1 L11 2 C13.4 3.8 12.4 7 9.6 7.9 L9.6 12.5 C9.6 14.8 6.4 14.8 6.4 12.5 L6.4 7.9 C3.6 7 2.6 3.8 5 2 Z",
+          "role": "body",
+          "opacity": 0.86
+        },
+        {
+          "id": "shaft-surface",
+          "tag": "rect",
+          "x": 7.1,
+          "y": 7.7,
+          "width": 1.8,
+          "height": 6,
+          "rx": 0.8,
+          "role": "surface",
+          "parent": "body",
+          "opacity": 0.35
+        }
+      ]
+    }
+  ]
+}

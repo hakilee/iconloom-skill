@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="watering-can-light-title" data-profile="pack-layered">
+  <title id="watering-can-light-title">Watering can</title>
+  <defs>
+    <linearGradient id="watering-can-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#91E8C7" />
+      <stop offset="1" stop-color="#42BA96" />
+    </linearGradient>
+    <clipPath id="watering-can-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 4.9941676 6.0566886 L 9.2275007 6.0566886 Q 10.285834 6.0566886 10.285834 7.1150219 L 10.285834 8.1733552 L 12.843473 5.4393276 L 13.99 6.4094664 L 10.285834 10.6428 L 10.285834 11.524744 Q 10.285834 12.847661 8.9629174 12.847661 L 4.9941676 12.847661 Q 3.671251 12.847661 3.671251 11.524744 L 3.671251 7.3796052 Q 3.671251 6.0566886 4.9941676 6.0566886 Z" />
+    </clipPath>
+    <filter id="watering-can-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="watering-can-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#91E8C7" />
+      <stop offset="1" stop-color="#42BA96" />
+    </linearGradient>
+    <clipPath id="watering-can-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="3.26319429" rx="1.3229166" width="6.61458302" x="3.67125096" y="9.58446625" />
+    </clipPath>
+    <clipPath id="watering-can-light-material-body" clipPathUnits="userSpaceOnUse">
+      <path d="M 4.9941676 6.0566886 L 9.2275007 6.0566886 Q 10.285834 6.0566886 10.285834 7.1150219 L 10.285834 8.1733552 L 12.843473 5.4393276 L 13.99 6.4094664 L 10.285834 10.6428 L 10.285834 11.524744 Q 10.285834 12.847661 8.9629174 12.847661 L 4.9941676 12.847661 Q 3.671251 12.847661 3.671251 11.524744 L 3.671251 7.3796052 Q 3.671251 6.0566886 4.9941676 6.0566886 Z" />
+    </clipPath>
+  </defs>
+  <path d="M 4.1122232 7.1150219 C 1.7309733 5.527522 1.9955566 3.4108554 4.2004176 3.5872443 C 5.6115287 3.6754388 5.9643064 4.9983554 5.9643064 6.0566886" fill="none" stroke="#26334D" opacity="1" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  <g data-material="body" opacity="0.85">
+    <g data-layer="0">
+      <path d="M 4.9941676 6.0566886 L 9.2275007 6.0566886 Q 10.285834 6.0566886 10.285834 7.1150219 L 10.285834 8.1733552 L 12.843473 5.4393276 L 13.99 6.4094664 L 10.285834 10.6428 L 10.285834 11.524744 Q 10.285834 12.847661 8.9629174 12.847661 L 4.9941676 12.847661 Q 3.671251 12.847661 3.671251 11.524744 L 3.671251 7.3796052 Q 3.671251 6.0566886 4.9941676 6.0566886 Z" fill="url(#watering-can-light-layer-0-paint)" data-part="fill" filter="url(#watering-can-light-layer-0-inset)" />
+    </g>
+    <g clip-path="url(#watering-can-light-material-body)" data-part="contained">
+      <g opacity="0.35" data-layer="1">
+        <rect height="3.26319429" rx="1.3229166" width="6.61458302" x="3.67125096" y="9.58446625" fill="url(#watering-can-light-layer-1-paint)" data-part="fill" />
+      </g>
+    </g>
+    <g>
+      <path d="M 4.9941676 6.0566886 L 9.2275007 6.0566886 Q 10.285834 6.0566886 10.285834 7.1150219 L 10.285834 8.1733552 L 12.843473 5.4393276 L 13.99 6.4094664 L 10.285834 10.6428 L 10.285834 11.524744 Q 10.285834 12.847661 8.9629174 12.847661 L 4.9941676 12.847661 Q 3.671251 12.847661 3.671251 11.524744 L 3.671251 7.3796052 Q 3.671251 6.0566886 4.9941676 6.0566886 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#watering-can-light-layer-0-clip)" data-part="edge" />
+    </g>
+  </g>
+</svg>

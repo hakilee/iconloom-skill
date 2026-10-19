@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="dumbbell-light-title" data-profile="pack-layered">
+  <title id="dumbbell-light-title">Dumbbell</title>
+  <defs>
+    <linearGradient id="dumbbell-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#75D9E9" />
+      <stop offset="1" stop-color="#1895AA" />
+    </linearGradient>
+    <clipPath id="dumbbell-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="3.04576271" rx="1.52288136" width="7.71593221" x="4.1420339" y="6.47711864" />
+    </clipPath>
+    <filter id="dumbbell-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="dumbbell-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#75D9E9" />
+      <stop offset="1" stop-color="#1895AA" />
+    </linearGradient>
+    <clipPath id="dumbbell-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="9.74644069" rx="1.62440678" width="3.8579661" x="2.01" y="3.12677965" />
+    </clipPath>
+    <filter id="dumbbell-light-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="dumbbell-light-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#75D9E9" />
+      <stop offset="1" stop-color="#1895AA" />
+    </linearGradient>
+    <clipPath id="dumbbell-light-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="9.74644069" rx="1.62440678" width="3.8579661" x="10.1320339" y="3.12677965" />
+    </clipPath>
+    <filter id="dumbbell-light-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.62" data-layer="0">
+    <rect height="3.04576271" rx="1.52288136" width="7.71593221" x="4.1420339" y="6.47711864" fill="url(#dumbbell-light-layer-0-paint)" data-part="fill" filter="url(#dumbbell-light-layer-0-inset)" />
+    <rect height="3.04576271" rx="1.52288136" width="7.71593221" x="4.1420339" y="6.47711864" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#dumbbell-light-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.86" data-layer="1">
+    <rect height="9.74644069" rx="1.62440678" width="3.8579661" x="2.01" y="3.12677965" fill="url(#dumbbell-light-layer-1-paint)" data-part="fill" filter="url(#dumbbell-light-layer-1-inset)" />
+    <rect height="9.74644069" rx="1.62440678" width="3.8579661" x="2.01" y="3.12677965" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#dumbbell-light-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.86" data-layer="2">
+    <rect height="9.74644069" rx="1.62440678" width="3.8579661" x="10.1320339" y="3.12677965" fill="url(#dumbbell-light-layer-2-paint)" data-part="fill" filter="url(#dumbbell-light-layer-2-inset)" />
+    <rect height="9.74644069" rx="1.62440678" width="3.8579661" x="10.1320339" y="3.12677965" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#dumbbell-light-layer-2-clip)" data-part="edge" />
+  </g>
+</svg>

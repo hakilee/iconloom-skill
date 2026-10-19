@@ -1,0 +1,72 @@
+{
+  "name": "desk-lamp",
+  "strict": true,
+  "brief": "Layered apricot icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "grid": "keyline-16",
+    "palette": "apricot",
+    "stroke_width": 1,
+    "relief": 0.16,
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "desk-lamp",
+      "label": "Desk lamp",
+      "scenario": "집중 작업용 조명 선택",
+      "meaning": "갓 아래의 지지대와 평평한 받침",
+      "layout": {
+        "keyline": "free",
+        "fit": "preserve"
+      },
+      "recognition": {
+        "silhouette": "기울어진 갓과 세로 지지대",
+        "cue": "갓 아래의 지지대와 평평한 받침",
+        "confusable": "버섯, 우산",
+        "difference": "기울어진 갓과 꺾인 지지대, 낮은 받침",
+        "cue_ids": [
+          "shade",
+          "stem"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "foot",
+          "tag": "rect",
+          "x": 3.5,
+          "y": 12,
+          "width": 9,
+          "height": 2,
+          "rx": 1,
+          "opacity": 0.8
+        },
+        {
+          "id": "stem",
+          "tag": "path",
+          "d": "M7.5 12.5 L7.5 9 L9 7",
+          "role": "line"
+        },
+        {
+          "id": "shade",
+          "tag": "path",
+          "d": "M4.5 6.5 L7 2.5 Q7.5 2 8 2.5 L12.5 6.5 Q13 7.5 12 7.5 L5 7.5 Q4 7.5 4.5 6.5 Z",
+          "opacity": 0.86
+        }
+      ],
+      "construction": {
+        "joins": [
+          [
+            "stem",
+            "foot"
+          ],
+          [
+            "stem",
+            "shade"
+          ]
+        ],
+        "gaps": []
+      }
+    }
+  ]
+}

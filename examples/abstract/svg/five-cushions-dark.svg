@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="five-cushions-dark-title">
+  <title id="five-cushions-dark-title">Five Cushions</title>
+  <defs>
+    <linearGradient id="five-cushions-dark-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#CDBDEA" />
+      <stop offset="1" stop-color="#9E90BF" />
+    </linearGradient>
+    <clipPath id="five-cushions-dark-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.70388489" y="1.6461369" />
+    </clipPath>
+    <filter id="five-cushions-dark-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.60959" dy="0.42333" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="five-cushions-dark-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#CDBDEA" />
+      <stop offset="1" stop-color="#9E90BF" />
+    </linearGradient>
+    <clipPath id="five-cushions-dark-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.80641192" y="1.72062715" />
+    </clipPath>
+    <filter id="five-cushions-dark-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0.9" dy="-1.4" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="five-cushions-dark-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#CDBDEA" />
+      <stop offset="1" stop-color="#9E90BF" />
+    </linearGradient>
+    <clipPath id="five-cushions-dark-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.90893896" y="1.6461369" />
+    </clipPath>
+    <filter id="five-cushions-dark-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="-1.05336" dy="-1.28857" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="five-cushions-dark-layer-3-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#CDBDEA" />
+      <stop offset="1" stop-color="#9E90BF" />
+    </linearGradient>
+    <clipPath id="five-cushions-dark-layer-3-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.86977711" y="1.52560914" />
+    </clipPath>
+    <filter id="five-cushions-dark-layer-3-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="-1.55101" dy="0.60362" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="five-cushions-dark-layer-4-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#CDBDEA" />
+      <stop offset="1" stop-color="#9E90BF" />
+    </linearGradient>
+    <clipPath id="five-cushions-dark-layer-4-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.74304673" y="1.52560914" />
+    </clipPath>
+    <filter id="five-cushions-dark-layer-4-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0.09478" dy="1.66163" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.8" data-layer="0" transform="rotate(18.0 8 8)">
+    <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.70388489" y="1.6461369" fill="url(#five-cushions-dark-layer-0-paint)" data-part="fill" filter="url(#five-cushions-dark-layer-0-inset)" />
+    <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.70388489" y="1.6461369" opacity="1" fill="none" stroke="#3E214B" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-cushions-dark-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.6" data-layer="1" transform="rotate(90.0 8 8)">
+    <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.80641192" y="1.72062715" fill="url(#five-cushions-dark-layer-1-paint)" data-part="fill" filter="url(#five-cushions-dark-layer-1-inset)" />
+    <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.80641192" y="1.72062715" opacity="1" fill="none" stroke="#3E214B" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-cushions-dark-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.78" data-layer="2" transform="rotate(162.0 8 8)">
+    <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.90893896" y="1.6461369" fill="url(#five-cushions-dark-layer-2-paint)" data-part="fill" filter="url(#five-cushions-dark-layer-2-inset)" />
+    <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.90893896" y="1.6461369" opacity="1" fill="none" stroke="#3E214B" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-cushions-dark-layer-2-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.62" data-layer="3" transform="rotate(234.0 8 8)">
+    <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.86977711" y="1.52560914" fill="url(#five-cushions-dark-layer-3-paint)" data-part="fill" filter="url(#five-cushions-dark-layer-3-inset)" />
+    <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.86977711" y="1.52560914" opacity="1" fill="none" stroke="#3E214B" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-cushions-dark-layer-3-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.8" data-layer="4" transform="rotate(306.0 8 8)">
+    <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.74304673" y="1.52560914" fill="url(#five-cushions-dark-layer-4-paint)" data-part="fill" filter="url(#five-cushions-dark-layer-4-inset)" />
+    <rect height="7.48497206" rx="2.1955918" width="6.38717615" x="4.74304673" y="1.52560914" opacity="1" fill="none" stroke="#3E214B" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-cushions-dark-layer-4-clip)" data-part="edge" />
+  </g>
+</svg>

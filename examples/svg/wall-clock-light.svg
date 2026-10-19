@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="wall-clock-light-title" data-profile="pack-layered">
+  <title id="wall-clock-light-title">Clock</title>
+  <defs>
+    <linearGradient id="wall-clock-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#7CB6FF" />
+      <stop offset="1" stop-color="#3689EB" />
+    </linearGradient>
+    <clipPath id="wall-clock-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="6.5" />
+    </clipPath>
+    <filter id="wall-clock-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <clipPath id="wall-clock-light-material-dial" clipPathUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="6.5" />
+    </clipPath>
+    <mask id="wall-clock-light-material-dial-interior" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16" mask-type="luminance">
+      <circle cx="8" cy="8" r="6.5" fill="white" />
+      <circle cx="8" cy="8" r="6.5" fill="none" stroke="black" stroke-width="1" stroke-linejoin="round" />
+    </mask>
+  </defs>
+  <g data-material="dial" opacity="0.84">
+    <g data-layer="0">
+      <circle cx="8" cy="8" r="6.5" fill="url(#wall-clock-light-layer-0-paint)" data-part="fill" filter="url(#wall-clock-light-layer-0-inset)" />
+    </g>
+    <g clip-path="url(#wall-clock-light-material-dial)" data-part="contained" />
+    <g>
+      <circle cx="8" cy="8" r="6.5" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#wall-clock-light-layer-0-clip)" data-part="edge" />
+    </g>
+  </g>
+  <g mask="url(#wall-clock-light-material-dial-interior)" data-part="material-detail">
+    <path d="M8 5 L8 8 L11 9.5" fill="none" stroke="#FFFFFF" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+    <path d="M8 2.5 L8 3.1 M12.9 8 L13.5 8 M8 12.9 L8 13.5 M2.5 8 L3.1 8" fill="none" stroke="#FFFFFF" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  </g>
+</svg>

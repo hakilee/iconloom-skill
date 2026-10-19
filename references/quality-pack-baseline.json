@@ -1,0 +1,814 @@
+{
+  "packs": [
+    {
+      "name": "travel",
+      "brief": "여행 예약 앱. 다양한 이동/숙박 선택을 읽을 수 있는 청색 반투명 아이콘. 16px, white/#202124.",
+      "style": {
+        "mode": "layered",
+        "palette": "sky",
+        "stroke_width": 0.7,
+        "relief": 0.16,
+        "light": {
+          "detail": "#3268A6"
+        },
+        "dark": {
+          "detail": "#AFD2FF"
+        }
+      },
+      "icons": [
+        {
+          "name": "boarding-pass",
+          "label": "탑승권",
+          "scenario": "체크인 완료 후 모바일 탑승권 열기",
+          "meaning": "양옆 홈이 있는 티켓과 절취선",
+          "shapes": [
+            {
+              "tag": "path",
+              "d": "M3 3.5 L13 3.5 Q14.3 3.5 14.3 4.8 L14.3 6.6 Q12.9 6.6 12.9 8 Q12.9 9.4 14.3 9.4 L14.3 11.2 Q14.3 12.5 13 12.5 L3 12.5 Q1.7 12.5 1.7 11.2 L1.7 9.4 Q3.1 9.4 3.1 8 Q3.1 6.6 1.7 6.6 L1.7 4.8 Q1.7 3.5 3 3.5 Z",
+              "role": "body",
+              "opacity": 0.88
+            },
+            {
+              "tag": "rect",
+              "x": 9.5,
+              "y": 3.5,
+              "width": 2.4,
+              "height": 9,
+              "rx": 0.8,
+              "role": "body",
+              "opacity": 0.5,
+              "edge": false
+            },
+            {
+              "tag": "path",
+              "d": "M9.3 5 L9.3 6.2 M9.3 7.4 L9.3 8.6 M9.3 9.8 L9.3 11",
+              "role": "line"
+            },
+            {
+              "tag": "path",
+              "d": "M4.4 6.6 L7.4 6.6 M4.4 9.4 L6.3 9.4",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "suitcase",
+          "label": "여행 가방",
+          "scenario": "수하물 보관 서비스 예약",
+          "meaning": "둥근 캐리어, 손잡이와 두 바퀴",
+          "shapes": [
+            {
+              "tag": "circle",
+              "cx": 5,
+              "cy": 13.6,
+              "r": 0.8,
+              "role": "body",
+              "opacity": 0.9
+            },
+            {
+              "tag": "circle",
+              "cx": 11,
+              "cy": 13.6,
+              "r": 0.8,
+              "role": "body",
+              "opacity": 0.9
+            },
+            {
+              "tag": "rect",
+              "x": 3,
+              "y": 4,
+              "width": 10,
+              "height": 9,
+              "rx": 1.7,
+              "role": "body",
+              "opacity": 0.85
+            },
+            {
+              "tag": "rect",
+              "x": 4.2,
+              "y": 4,
+              "width": 2.1,
+              "height": 9,
+              "rx": 0.8,
+              "role": "body",
+              "opacity": 0.45,
+              "edge": false
+            },
+            {
+              "tag": "path",
+              "d": "M6 4 L6 2.5 Q6 1.8 6.8 1.8 L9.2 1.8 Q10 1.8 10 2.5 L10 4",
+              "role": "line"
+            },
+            {
+              "tag": "path",
+              "d": "M6.1 6 L6.1 10.8 M9.9 6 L9.9 10.8",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "tent",
+          "label": "캠핑 텐트",
+          "scenario": "숙박 유형에서 캠핑장 선택",
+          "meaning": "기울어진 양쪽 천막과 삼각형 입구",
+          "shapes": [
+            {
+              "tag": "path",
+              "d": "M7.4 2.5 Q8 1.6 8.6 2.5 L14.1 12.8 Q14.5 13.6 13.5 13.6 L2.5 13.6 Q1.5 13.6 1.9 12.8 Z",
+              "role": "body",
+              "opacity": 0.8
+            },
+            {
+              "tag": "path",
+              "d": "M8 2.3 L13.9 13.5 L8 13.5 Z",
+              "role": "body",
+              "opacity": 0.53,
+              "edge": false
+            },
+            {
+              "tag": "path",
+              "d": "M8 7 L11.3 13.5 L4.7 13.5 Z",
+              "role": "body",
+              "opacity": 0.85
+            },
+            {
+              "tag": "path",
+              "d": "M8 7 L8 13",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "ferry",
+          "label": "페리",
+          "scenario": "섬으로 가는 여객선 편 검색",
+          "meaning": "선실 위에 굴뚝, 넓은 선체와 물결",
+          "shapes": [
+            {
+              "tag": "rect",
+              "x": 7,
+              "y": 2,
+              "width": 2.4,
+              "height": 3,
+              "rx": 0.4,
+              "role": "body",
+              "opacity": 0.65
+            },
+            {
+              "tag": "rect",
+              "x": 3.5,
+              "y": 4,
+              "width": 9,
+              "height": 6,
+              "rx": 1.1,
+              "role": "body",
+              "opacity": 0.72
+            },
+            {
+              "tag": "path",
+              "d": "M1.8 8.6 L14.2 8.6 L12.3 12.4 Q12 13 11.3 13 L4.7 13 Q4 13 3.7 12.4 Z",
+              "role": "body",
+              "opacity": 0.9
+            },
+            {
+              "tag": "path",
+              "d": "M5.2 6.3 L6.4 6.3 M9.1 6.3 L10.3 6.3 M5 10.5 L11 10.5",
+              "role": "line"
+            },
+            {
+              "tag": "path",
+              "d": "M2.5 14 Q4 13.3 5.5 14 Q7 14.7 8.5 14 Q10 13.3 11.5 14 Q12.5 14.5 13.5 14",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "cable-car",
+          "label": "케이블카",
+          "scenario": "산 정상 케이블카 운행 정보 확인",
+          "meaning": "상부 케이블과 매달린 창문형 객실",
+          "shapes": [
+            {
+              "tag": "rect",
+              "x": 3,
+              "y": 6,
+              "width": 10,
+              "height": 7.6,
+              "rx": 2,
+              "role": "body",
+              "opacity": 0.86
+            },
+            {
+              "tag": "rect",
+              "x": 3,
+              "y": 6,
+              "width": 10,
+              "height": 2.3,
+              "rx": 1.1,
+              "role": "body",
+              "opacity": 0.5,
+              "edge": false
+            },
+            {
+              "tag": "path",
+              "d": "M2 2 L14 2 M8 2 L8 4 L10 6",
+              "role": "line"
+            },
+            {
+              "tag": "path",
+              "d": "M5 8.6 L5 10.4 L11 10.4 L11 8.6 M8 8.5 L8 10.4",
+              "role": "line"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "kitchen",
+      "brief": "요리 안내 앱. 따뜻한 갈색 윤곽선, 동일한 .85 선과 둥근 모서리. 16px, white/#202124.",
+      "style": {
+        "mode": "outline",
+        "stroke_width": 0.85,
+        "light": {
+          "ink": "#61483E",
+          "accent": "#AD7147"
+        },
+        "dark": {
+          "ink": "#F3D9BF",
+          "accent": "#E5AB75"
+        }
+      },
+      "icons": [
+        {
+          "name": "recipe-book",
+          "label": "레시피 북",
+          "scenario": "저장한 조리법 모아 보기",
+          "meaning": "책등과 본문 줄, 상단 책갈피",
+          "shapes": [
+            {
+              "tag": "rect",
+              "x": 3,
+              "y": 2,
+              "width": 10,
+              "height": 12,
+              "rx": 1.3,
+              "role": "body"
+            },
+            {
+              "tag": "path",
+              "d": "M5.5 2 L5.5 14",
+              "role": "line"
+            },
+            {
+              "tag": "path",
+              "d": "M9 2 L9 5.5 L10.3 4.6 L11.5 5.5 L11.5 2",
+              "role": "accent"
+            },
+            {
+              "tag": "path",
+              "d": "M7.5 8.5 L11 8.5 M7.5 11 L10.2 11",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "measuring-cup",
+          "label": "계량컵",
+          "scenario": "레시피 재료의 용량 계량",
+          "meaning": "주둥이와 손잡이, 세 개의 눈금",
+          "shapes": [
+            {
+              "tag": "path",
+              "d": "M2 3 L10.5 3 L10.5 12.5 Q10.5 14 9 14 L4 14 Q2.5 14 2.5 12.5 L2.5 5 L2 3 Z",
+              "role": "body"
+            },
+            {
+              "tag": "path",
+              "d": "M10.5 5 L12.6 5 Q14 5 14 6.5 L14 8 Q14 9.5 12.6 9.5 L10.5 9.5",
+              "role": "line"
+            },
+            {
+              "tag": "path",
+              "d": "M4.5 6 L7.5 6 M4.5 8.5 L6.5 8.5 M4.5 11 L7.5 11",
+              "role": "accent"
+            }
+          ]
+        },
+        {
+          "name": "whisk",
+          "label": "거품기",
+          "scenario": "반죽을 섞는 조리 단계 안내",
+          "meaning": "둥근 철사 헤드와 가늘고 긴 손잡이",
+          "shapes": [
+            {
+              "tag": "path",
+              "d": "M8 2 C3 2 3.3 8 8 10 C12.7 8 13 2 8 2 Z",
+              "role": "body"
+            },
+            {
+              "tag": "path",
+              "d": "M8 2 C5.8 4 6.2 8 8 10 C9.8 8 10.2 4 8 2",
+              "role": "line"
+            },
+            {
+              "tag": "rect",
+              "x": 7.2,
+              "y": 10,
+              "width": 1.6,
+              "height": 4.3,
+              "rx": 0.8,
+              "role": "accent"
+            }
+          ]
+        },
+        {
+          "name": "stovetop",
+          "label": "레인지",
+          "scenario": "가열이 필요한 조리 단계 선택",
+          "meaning": "네 개 화구와 하단 조작부",
+          "shapes": [
+            {
+              "tag": "rect",
+              "x": 2,
+              "y": 1.8,
+              "width": 12,
+              "height": 12.4,
+              "rx": 1.6,
+              "role": "body"
+            },
+            {
+              "tag": "circle",
+              "cx": 5.2,
+              "cy": 5,
+              "r": 1.65,
+              "role": "body"
+            },
+            {
+              "tag": "circle",
+              "cx": 10.8,
+              "cy": 5,
+              "r": 1.1,
+              "role": "body"
+            },
+            {
+              "tag": "circle",
+              "cx": 5.2,
+              "cy": 9.5,
+              "r": 1.1,
+              "role": "body"
+            },
+            {
+              "tag": "circle",
+              "cx": 10.8,
+              "cy": 9.5,
+              "r": 1.65,
+              "role": "body"
+            },
+            {
+              "tag": "path",
+              "d": "M5 12.5 L6.2 12.5 M9.8 12.5 L11 12.5",
+              "role": "accent"
+            }
+          ]
+        },
+        {
+          "name": "pantry-jar",
+          "label": "보관 병",
+          "scenario": "팬트리에 저장 용기 등록",
+          "meaning": "넓은 뚜껑과 몸체 라벨",
+          "shapes": [
+            {
+              "tag": "rect",
+              "x": 4,
+              "y": 5,
+              "width": 8,
+              "height": 9,
+              "rx": 1.8,
+              "role": "body"
+            },
+            {
+              "tag": "rect",
+              "x": 3.5,
+              "y": 2.1,
+              "width": 9,
+              "height": 2.9,
+              "rx": 0.7,
+              "role": "body"
+            },
+            {
+              "tag": "rect",
+              "x": 5.7,
+              "y": 8,
+              "width": 4.6,
+              "height": 3,
+              "rx": 0.6,
+              "role": "accent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "commerce",
+      "brief": "상점 운영 앱. 명확한 면과 인디고 듀오톤, 최소 내부 디테일. 16px, white/#202124.",
+      "style": {
+        "mode": "duotone",
+        "stroke_width": 0.85,
+        "light": {
+          "ink": "#384567",
+          "accent": "#8D9FDE",
+          "detail": "#FFFFFF"
+        },
+        "dark": {
+          "ink": "#D4DDF4",
+          "accent": "#7895E4",
+          "detail": "#202124"
+        }
+      },
+      "icons": [
+        {
+          "name": "barcode",
+          "label": "바코드",
+          "scenario": "상품을 바코드로 조회",
+          "meaning": "라벨 위의 서로 다른 길이 막대",
+          "shapes": [
+            {
+              "tag": "rect",
+              "x": 1.5,
+              "y": 3,
+              "width": 13,
+              "height": 10,
+              "rx": 1.7,
+              "role": "body"
+            },
+            {
+              "tag": "path",
+              "d": "M3.3 5.3 L3.3 10.6 M5.1 5.3 L5.1 9.5 M6.9 5.3 L6.9 10.6 M9.1 5.3 L9.1 10.6 M10.9 5.3 L10.9 9.5 M12.7 5.3 L12.7 10.6",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "shopping-basket",
+          "label": "장바구니",
+          "scenario": "주문 전 선택 상품 확인",
+          "meaning": "기울어진 손잡이와 사다리꼴 바구니",
+          "shapes": [
+            {
+              "tag": "path",
+              "d": "M4.2 6 L6.6 2.3 Q7 1.7 7.5 2.1 Q7.9 2.4 7.5 3 L5.6 6 Z",
+              "role": "accent"
+            },
+            {
+              "tag": "path",
+              "d": "M11.8 6 L9.4 2.3 Q9 1.7 8.5 2.1 Q8.1 2.4 8.5 3 L10.4 6 Z",
+              "role": "accent"
+            },
+            {
+              "tag": "path",
+              "d": "M2.2 6 L13.8 6 L12.3 13 Q12.1 13.8 11.2 13.8 L4.8 13.8 Q3.9 13.8 3.7 13 Z",
+              "role": "body"
+            },
+            {
+              "tag": "rect",
+              "x": 1.7,
+              "y": 5.4,
+              "width": 12.6,
+              "height": 1.8,
+              "rx": 0.6,
+              "role": "accent"
+            },
+            {
+              "tag": "path",
+              "d": "M5.3 9 L5.8 11.6 M8 9 L8 11.6 M10.7 9 L10.2 11.6",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "parcel",
+          "label": "배송 상자",
+          "scenario": "포장한 물품의 배송 추적",
+          "meaning": "입체 상자의 세 면과 상단 테이프",
+          "shapes": [
+            {
+              "tag": "path",
+              "d": "M2 5 L8 1.8 L14 5 L8 8.3 Z",
+              "role": "accent"
+            },
+            {
+              "tag": "path",
+              "d": "M2 5 L8 8.3 L8 14.2 L2.4 11.2 Q2 11 2 10.5 Z",
+              "role": "body"
+            },
+            {
+              "tag": "path",
+              "d": "M8 8.3 L14 5 L14 10.5 Q14 11 13.6 11.2 L8 14.2 Z",
+              "role": "accent"
+            },
+            {
+              "tag": "path",
+              "d": "M5.3 3.3 L11.3 6.5 L11.3 8.7 M8 8.4 L8 13.1",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "receipt",
+          "label": "영수증",
+          "scenario": "결제 후 전자 영수증 다운로드",
+          "meaning": "톱니 모양 하단과 거래 내역 줄",
+          "shapes": [
+            {
+              "tag": "path",
+              "d": "M4 1.8 L12 1.8 Q13 1.8 13 2.8 L13 14 L11.4 13 L9.7 14 L8 13 L6.3 14 L4.6 13 L3 14 L3 2.8 Q3 1.8 4 1.8 Z",
+              "role": "body"
+            },
+            {
+              "tag": "rect",
+              "x": 5,
+              "y": 4,
+              "width": 6,
+              "height": 1.8,
+              "rx": 0.5,
+              "role": "accent"
+            },
+            {
+              "tag": "path",
+              "d": "M5.3 8 L10.7 8 M5.3 10.7 L8.2 10.7",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "storefront",
+          "label": "매장 픽업",
+          "scenario": "주문 상품을 받을 매장 선택",
+          "meaning": "차양, 출입문과 진열창",
+          "shapes": [
+            {
+              "tag": "rect",
+              "x": 2.5,
+              "y": 6,
+              "width": 11,
+              "height": 8,
+              "rx": 1,
+              "role": "body"
+            },
+            {
+              "tag": "path",
+              "d": "M3.2 2 L12.8 2 L14.2 5.5 Q14.4 7 12.7 7 Q11.4 7 11 6.2 Q10.6 7 9.3 7 Q8.2 7 8 6.2 Q7.8 7 6.7 7 Q5.4 7 5 6.2 Q4.6 7 3.3 7 Q1.6 7 1.8 5.5 Z",
+              "role": "accent"
+            },
+            {
+              "tag": "rect",
+              "x": 4.2,
+              "y": 9,
+              "width": 3.1,
+              "height": 2.7,
+              "rx": 0.4,
+              "role": "accent"
+            },
+            {
+              "tag": "path",
+              "d": "M9.5 14 L9.5 9 L11.7 9 L11.7 14",
+              "role": "line"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "media",
+      "brief": "미디어 제작 앱. 보라색 반투명 면, 둥근 도구 실루엣과 최소 기능 디테일. 16px, white/#202124.",
+      "style": {
+        "mode": "layered",
+        "palette": "violet",
+        "stroke_width": 0.75,
+        "relief": 0.16,
+        "light": {
+          "detail": "#7554A6"
+        },
+        "dark": {
+          "detail": "#CCB4FF"
+        }
+      },
+      "icons": [
+        {
+          "name": "camera",
+          "label": "카메라",
+          "scenario": "프로필용 사진 촬영",
+          "meaning": "렌즈와 위쪽 펜타프리즘 덮개",
+          "shapes": [
+            {
+              "tag": "path",
+              "d": "M5.2 4 L6 2.3 L10 2.3 L10.8 4 Z",
+              "role": "body",
+              "opacity": 0.7
+            },
+            {
+              "tag": "rect",
+              "x": 1.8,
+              "y": 4,
+              "width": 12.4,
+              "height": 9.3,
+              "rx": 1.7,
+              "role": "body",
+              "opacity": 0.83
+            },
+            {
+              "tag": "circle",
+              "cx": 8,
+              "cy": 8.7,
+              "r": 3.1,
+              "role": "body",
+              "opacity": 0.85
+            },
+            {
+              "tag": "circle",
+              "cx": 8,
+              "cy": 8.7,
+              "r": 1.6,
+              "role": "body",
+              "opacity": 0.55,
+              "edge": false
+            },
+            {
+              "tag": "path",
+              "d": "M11.8 6 L12.5 6",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "microphone",
+          "label": "마이크",
+          "scenario": "음성 메시지 녹음 시작",
+          "meaning": "캡슐형 마이크와 받침대",
+          "shapes": [
+            {
+              "tag": "rect",
+              "x": 5.4,
+              "y": 1.7,
+              "width": 5.2,
+              "height": 8.5,
+              "rx": 2.6,
+              "role": "body",
+              "opacity": 0.84
+            },
+            {
+              "tag": "rect",
+              "x": 6,
+              "y": 2.3,
+              "width": 4,
+              "height": 3.8,
+              "rx": 1.8,
+              "role": "body",
+              "opacity": 0.45,
+              "edge": false
+            },
+            {
+              "tag": "path",
+              "d": "M3.5 7.5 L3.5 8.1 C3.5 14 12.5 14 12.5 8.1 L12.5 7.5 M8 12.5 L8 14 M5.7 14 L10.3 14",
+              "role": "line"
+            },
+            {
+              "tag": "path",
+              "d": "M6.8 5 L9.2 5 M6.8 7.2 L9.2 7.2",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "clapperboard",
+          "label": "클래퍼보드",
+          "scenario": "영상 편집 프로젝트 만들기",
+          "meaning": "사선 줄무늬 슬레이트와 본체",
+          "shapes": [
+            {
+              "tag": "rect",
+              "x": 2,
+              "y": 6,
+              "width": 12,
+              "height": 8,
+              "rx": 1.2,
+              "role": "body",
+              "opacity": 0.8
+            },
+            {
+              "tag": "path",
+              "d": "M2 3.6 L13.1 1.8 Q13.8 1.7 14 2.4 L14.3 4.8 L2.5 6.7 Z",
+              "role": "body",
+              "opacity": 0.9
+            },
+            {
+              "tag": "path",
+              "d": "M5.2 3.5 L6.8 5.6 M9.5 2.8 L11.1 4.9 M4.5 9 L11.5 9 M4.5 11.6 L8.5 11.6",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "headphones",
+          "label": "헤드폰",
+          "scenario": "오디오 출력 장치 선택",
+          "meaning": "넓은 헤드밴드와 양쪽 이어컵",
+          "shapes": [
+            {
+              "tag": "path",
+              "d": "M2.6 9 L2.6 7.3 C2.6 .8 13.4 .8 13.4 7.3 L13.4 9 L11.9 9 L11.9 7.3 C11.9 2.8 4.1 2.8 4.1 7.3 L4.1 9 Z",
+              "role": "body",
+              "opacity": 0.75
+            },
+            {
+              "tag": "rect",
+              "x": 1.9,
+              "y": 7.1,
+              "width": 3.4,
+              "height": 6.6,
+              "rx": 1.5,
+              "role": "body",
+              "opacity": 0.88
+            },
+            {
+              "tag": "rect",
+              "x": 10.7,
+              "y": 7.1,
+              "width": 3.4,
+              "height": 6.6,
+              "rx": 1.5,
+              "role": "body",
+              "opacity": 0.88
+            },
+            {
+              "tag": "path",
+              "d": "M3.7 9 L3.7 11.9 M12.3 9 L12.3 11.9",
+              "role": "line"
+            }
+          ]
+        },
+        {
+          "name": "gamepad",
+          "label": "게임패드",
+          "scenario": "게임의 컨트롤러 설정 열기",
+          "meaning": "두 손잡이, 십자키와 액션 버튼",
+          "shapes": [
+            {
+              "tag": "path",
+              "d": "M4.8 4 L11.2 4 C13.1 4 13.5 6 14.1 8.8 C14.7 11.8 13.3 13.1 11.7 11.8 L10.3 10.5 L5.7 10.5 L4.3 11.8 C2.7 13.1 1.3 11.8 1.9 8.8 C2.5 6 2.9 4 4.8 4 Z",
+              "role": "body",
+              "opacity": 0.85
+            },
+            {
+              "tag": "path",
+              "d": "M4.8 6.3 L4.8 9 M3.45 7.65 L6.15 7.65 M10.5 6.8 L10.5 6.9 M12 8.3 L12 8.4",
+              "role": "line"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sha256": {
+    "travel/boarding-pass-light.svg": "06beccaae8eb91089a32766c44671592c5baf28f44149ba94bc11de89f3edff3",
+    "travel/cable-car-dark.svg": "f37eccbb2592eb942be3f06d8b1a71c25b8e3ce54d4899f901b175c3b5cbb9e2",
+    "travel/boarding-pass-dark.svg": "161092718c91b1c762ee0b801e9286bacf0dd6d860096cf4309789fa6910b8b1",
+    "travel/suitcase-dark.svg": "63cdfe84a387a83ccf0c152c4207b266d50696168776c6df5086d844e71ec55e",
+    "travel/cable-car-light.svg": "0a638cba70d602e8c5ae2ec7d9fa8d75e46e7ff34a7551ac50d772e9cae59d1c",
+    "travel/suitcase-light.svg": "3d840bff849fd66f0f6900bee8e49d9770c726ab1e57f1e7323522b726ca4272",
+    "travel/ferry-light.svg": "b20020bfb2223a6c5704427d674f9a3d36313f66f7bcda41da07cc977b740141",
+    "travel/tent-dark.svg": "4e6caf2187a09baf59574cd85fcb887f8642e54a1d318f063c6f3707760e83a8",
+    "travel/tent-light.svg": "18562cfbdcc1ca609a0df22ca83f398fb1ec8f355dfbc10e88b387659b817889",
+    "travel/ferry-dark.svg": "ba0b1fde6ce4f8b7d727f6fb7271382a41d24b52593777074bbb6a7c48e9f438",
+    "kitchen/measuring-cup-dark.svg": "08f74f7cfd59fcd7b47b0590977ee89be0c33a6236cb34b3ed1f854d09142c97",
+    "kitchen/stovetop-light.svg": "9e982c5b2faa9e072ddc2f0893afa580e95b39c3852af92778753c4ae2838c9b",
+    "kitchen/measuring-cup-light.svg": "51acea5f9373273871dd8a541ab6f44cb15954fdf03f0bd0b29b7422be47c6ec",
+    "kitchen/recipe-book-light.svg": "78d3fc53adaa9e26f541278727fc09c55535fad060a40b54ee57746d357d9ba4",
+    "kitchen/stovetop-dark.svg": "353367914b77e39ad14a79715dd1e5ee039c93ebae99dd2b7539940c33c72241",
+    "kitchen/recipe-book-dark.svg": "faa8ac04b54b5416ac7a5e78441794f79f58b266f3a28ffb51da5d0d40a44e3c",
+    "kitchen/pantry-jar-light.svg": "dddc412d772f0a1ada1ace903fdf812e2e79648345e40cddf3e2a9d54741e43e",
+    "kitchen/whisk-light.svg": "6051792b0061d1fe1219c208407b0f8c8c6aaeab9311304afd589a5e4be92726",
+    "kitchen/pantry-jar-dark.svg": "2aab2fb0a417d0c74bb14f62c1590c0beecfec0688bb832a55b0a627e05b3c3a",
+    "kitchen/whisk-dark.svg": "f1f0ec93f5e888040e826b6b3406a8ee76445e4b2333dcd108bc70cfee8434aa",
+    "commerce/barcode-dark.svg": "6afb221759e1b9ebb53c7fba3f57a6a084837dff2af6e7aa8dc11d0358fcb4e0",
+    "commerce/shopping-basket-dark.svg": "1090f3aaf2ceb64549629ab1b0c66a816305d790b96676e9b8a0b2532c8dfcc8",
+    "commerce/storefront-dark.svg": "5314e8d9498fd5a90f15fc3cd70f659cfe83f720a8ba14b75f6f64f102e2b765",
+    "commerce/receipt-dark.svg": "82c44de4b58bc73ecc9171737002e33fcbf0859130aa3612a4244d7578a8c1a0",
+    "commerce/storefront-light.svg": "136098818af2462a1590521005b049566f191b066a6ec67d43086ae752fea99c",
+    "commerce/shopping-basket-light.svg": "a69170ecc331378872b37942f55a064722d65855666b8cb4053320f9dc63893c",
+    "commerce/parcel-light.svg": "b8a68c102caf359d4329716eab9a687394f93da2c95b8bcbcf5032b8b71b4f67",
+    "commerce/parcel-dark.svg": "2df6bd9b59643ac7f605f92e42f01844ef45aae55d1254a5ecea6ee8b6d374ab",
+    "commerce/receipt-light.svg": "dbae026bbff040eda317d4b2040280ff5584deca5c5f356a1f4aed0e6ab15b0e",
+    "commerce/barcode-light.svg": "b2d3bae9951aabdccccf9844951980683aeb7c3c0a80cb2ec49929b07bd1d842",
+    "media/headphones-dark.svg": "c28d68a6e4b703c7e498361157388cda4bbb47ea3e77794888655cad4d02dd48",
+    "media/camera-dark.svg": "86f138b2696cc4de8eb1186c4301b451674443db5b676657108c23ecf5a36cb2",
+    "media/microphone-dark.svg": "ef56cf584154b64041caa037fc28211e51283410740605d51656e91c54d65742",
+    "media/gamepad-light.svg": "f17b5350aed45e439ce5f2044a3e315f42c9e0a0f25b21bb5ce853fd218cec6d",
+    "media/microphone-light.svg": "2aaa7800a254d44fa8db75f8afcaa6b886a24e8174a008fb6b0eeb4830e44bcd",
+    "media/clapperboard-dark.svg": "7263c6e45eea8369c89c4a25cee60a082b2d8e406d51985161baccf727bce507",
+    "media/gamepad-dark.svg": "5c81e0305f0cac8c1d9991bc15d984c4bfc0f4afe78b0f4ebfa6e8ca60ab9962",
+    "media/headphones-light.svg": "a94af6a8aa8f6befb5e7688dd648d5d4e7ea540264f9fa55ac02cea647463184",
+    "media/camera-light.svg": "312213622905885d6faee337edba073cc918c1e739118ba84c63d87a2e3c4702",
+    "media/clapperboard-light.svg": "84b22d5519aab0ae24275cfd786ede4d6835218d21d0b63487a8044a489d0937"
+  }
+}

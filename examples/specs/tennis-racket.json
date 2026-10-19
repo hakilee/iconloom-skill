@@ -1,0 +1,64 @@
+{
+  "name": "tennis-racket",
+  "strict": true,
+  "brief": "Layered sprout icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "palette": "sprout",
+    "stroke_width": 0.85,
+    "relief": 0.16,
+    "light": {
+      "detail": "#11500A"
+    },
+    "dark": {
+      "detail": "#A9E597"
+    },
+    "grid": "keyline-16",
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "tennis-racket",
+      "label": "Racket",
+      "scenario": "대여할 라켓 장비 선택",
+      "meaning": "헤드 안의 교차 스트링",
+      "recognition": {
+        "silhouette": "타원형 헤드와 긴 손잡이",
+        "cue": "헤드 안의 교차 스트링",
+        "confusable": "돋보기",
+        "difference": "렌즈 대신 교차 스트링",
+        "cue_ids": [
+          "strings",
+          "body"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "body",
+          "tag": "path",
+          "d": "M8 1.5 C10.6 1.5 12.3 3.3 12.3 5.7 C12.3 7.8 10.9 9.5 9.2 10.1 L9.2 13.4 Q9.2 14.5 8 14.5 Q6.8 14.5 6.8 13.4 L6.8 10.1 C5.1 9.5 3.7 7.8 3.7 5.7 C3.7 3.3 5.4 1.5 8 1.5 Z",
+          "role": "body",
+          "opacity": 0.82
+        },
+        {
+          "id": "face",
+          "role": "surface",
+          "parent": "body",
+          "tag": "ellipse",
+          "cx": 8,
+          "cy": 5.7,
+          "rx": 3,
+          "ry": 3.3,
+          "opacity": 0.35
+        },
+        {
+          "id": "strings",
+          "tag": "path",
+          "d": "M5.6 4.9 L10.4 4.9 M5.6 6.7 L10.4 6.7 M7 3.1 L7 8.2 M9 3.1 L9 8.2",
+          "role": "line",
+          "parent": "body"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="five-lobe-vortex-light-title">
+  <title id="five-lobe-vortex-light-title">Five Lobe Vortex</title>
+  <defs>
+    <linearGradient id="five-lobe-vortex-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#7CB6FF" />
+      <stop offset="1" stop-color="#3689EB" />
+    </linearGradient>
+    <clipPath id="five-lobe-vortex-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 7.8966462 1.51 C 11.439932 1.51 12.958483 4.0409184 12.148589 6.5718368 C 11.439932 8.9002817 9.2127238 9.5077021 7.3904625 8.6978082 C 8.9090136 7.2804939 9.111487 5.7619429 7.2892258 4.8508122 C 5.5682013 4.0409184 5.8719115 1.51 7.8966462 1.51 Z" />
+    </clipPath>
+    <filter id="five-lobe-vortex-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="five-lobe-vortex-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#7CB6FF" />
+      <stop offset="1" stop-color="#3689EB" />
+    </linearGradient>
+    <clipPath id="five-lobe-vortex-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.0540258 1.5458388 C 11.597312 1.5458388 13.115863 4.0767572 12.305969 6.6076756 C 11.597312 8.9361205 9.3701034 9.543541 7.5478422 8.7336471 C 9.0663932 7.3163328 9.2688667 5.7977817 7.4466054 4.8866511 C 5.7255809 4.0767572 6.0292911 1.5458388 8.0540258 1.5458388 Z" />
+    </clipPath>
+    <filter id="five-lobe-vortex-light-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="five-lobe-vortex-light-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#7CB6FF" />
+      <stop offset="1" stop-color="#3689EB" />
+    </linearGradient>
+    <clipPath id="five-lobe-vortex-light-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.1367436 1.4072367 C 11.680029 1.4072367 13.19858 3.9381551 12.388687 6.4690735 C 11.680029 8.7975185 9.4528212 9.4049389 7.6305599 8.595045 C 9.149111 7.1777307 9.3515844 5.6591796 7.5293232 4.748049 C 5.8082987 3.9381551 6.1120089 1.4072367 8.1367436 1.4072367 Z" />
+    </clipPath>
+    <filter id="five-lobe-vortex-light-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="five-lobe-vortex-light-layer-3-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#7CB6FF" />
+      <stop offset="1" stop-color="#3689EB" />
+    </linearGradient>
+    <clipPath id="five-lobe-vortex-light-layer-3-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.0304864 1.2857371 C 11.573772 1.2857371 13.092323 3.8166554 12.282429 6.3475739 C 11.573772 8.6760188 9.3465639 9.2834392 7.5243027 8.4735453 C 9.0428537 7.056231 9.2453272 5.53768 7.4230659 4.6265493 C 5.7020414 3.8166554 6.0057516 1.2857371 8.0304864 1.2857371 Z" />
+    </clipPath>
+    <filter id="five-lobe-vortex-light-layer-3-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="five-lobe-vortex-light-layer-4-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#7CB6FF" />
+      <stop offset="1" stop-color="#3689EB" />
+    </linearGradient>
+    <clipPath id="five-lobe-vortex-light-layer-4-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 7.882098 1.3492482 C 11.425384 1.3492482 12.943935 3.8801666 12.134041 6.411085 C 11.425384 8.73953 9.1981756 9.3469504 7.3759143 8.5370565 C 8.8944654 7.1197422 9.0969389 5.6011912 7.2746776 4.6900605 C 5.5536531 3.8801666 5.8573633 1.3492482 7.882098 1.3492482 Z" />
+    </clipPath>
+    <filter id="five-lobe-vortex-light-layer-4-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.8" data-layer="0" transform="rotate(0.0 8 8)">
+    <path d="M 7.8966462 1.51 C 11.439932 1.51 12.958483 4.0409184 12.148589 6.5718368 C 11.439932 8.9002817 9.2127238 9.5077021 7.3904625 8.6978082 C 8.9090136 7.2804939 9.111487 5.7619429 7.2892258 4.8508122 C 5.5682013 4.0409184 5.8719115 1.51 7.8966462 1.51 Z" fill="url(#five-lobe-vortex-light-layer-0-paint)" data-part="fill" filter="url(#five-lobe-vortex-light-layer-0-inset)" />
+    <path d="M 7.8966462 1.51 C 11.439932 1.51 12.958483 4.0409184 12.148589 6.5718368 C 11.439932 8.9002817 9.2127238 9.5077021 7.3904625 8.6978082 C 8.9090136 7.2804939 9.111487 5.7619429 7.2892258 4.8508122 C 5.5682013 4.0409184 5.8719115 1.51 7.8966462 1.51 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-lobe-vortex-light-layer-0-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.6" data-layer="1" transform="rotate(72.0 8 8)">
+    <path d="M 8.0540258 1.5458388 C 11.597312 1.5458388 13.115863 4.0767572 12.305969 6.6076756 C 11.597312 8.9361205 9.3701034 9.543541 7.5478422 8.7336471 C 9.0663932 7.3163328 9.2688667 5.7977817 7.4466054 4.8866511 C 5.7255809 4.0767572 6.0292911 1.5458388 8.0540258 1.5458388 Z" fill="url(#five-lobe-vortex-light-layer-1-paint)" data-part="fill" filter="url(#five-lobe-vortex-light-layer-1-inset)" />
+    <path d="M 8.0540258 1.5458388 C 11.597312 1.5458388 13.115863 4.0767572 12.305969 6.6076756 C 11.597312 8.9361205 9.3701034 9.543541 7.5478422 8.7336471 C 9.0663932 7.3163328 9.2688667 5.7977817 7.4466054 4.8866511 C 5.7255809 4.0767572 6.0292911 1.5458388 8.0540258 1.5458388 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-lobe-vortex-light-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.78" data-layer="2" transform="rotate(144.0 8 8)">
+    <path d="M 8.1367436 1.4072367 C 11.680029 1.4072367 13.19858 3.9381551 12.388687 6.4690735 C 11.680029 8.7975185 9.4528212 9.4049389 7.6305599 8.595045 C 9.149111 7.1777307 9.3515844 5.6591796 7.5293232 4.748049 C 5.8082987 3.9381551 6.1120089 1.4072367 8.1367436 1.4072367 Z" fill="url(#five-lobe-vortex-light-layer-2-paint)" data-part="fill" filter="url(#five-lobe-vortex-light-layer-2-inset)" />
+    <path d="M 8.1367436 1.4072367 C 11.680029 1.4072367 13.19858 3.9381551 12.388687 6.4690735 C 11.680029 8.7975185 9.4528212 9.4049389 7.6305599 8.595045 C 9.149111 7.1777307 9.3515844 5.6591796 7.5293232 4.748049 C 5.8082987 3.9381551 6.1120089 1.4072367 8.1367436 1.4072367 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-lobe-vortex-light-layer-2-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.62" data-layer="3" transform="rotate(216.0 8 8)">
+    <path d="M 8.0304864 1.2857371 C 11.573772 1.2857371 13.092323 3.8166554 12.282429 6.3475739 C 11.573772 8.6760188 9.3465639 9.2834392 7.5243027 8.4735453 C 9.0428537 7.056231 9.2453272 5.53768 7.4230659 4.6265493 C 5.7020414 3.8166554 6.0057516 1.2857371 8.0304864 1.2857371 Z" fill="url(#five-lobe-vortex-light-layer-3-paint)" data-part="fill" filter="url(#five-lobe-vortex-light-layer-3-inset)" />
+    <path d="M 8.0304864 1.2857371 C 11.573772 1.2857371 13.092323 3.8166554 12.282429 6.3475739 C 11.573772 8.6760188 9.3465639 9.2834392 7.5243027 8.4735453 C 9.0428537 7.056231 9.2453272 5.53768 7.4230659 4.6265493 C 5.7020414 3.8166554 6.0057516 1.2857371 8.0304864 1.2857371 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-lobe-vortex-light-layer-3-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.8" data-layer="4" transform="rotate(288.0 8 8)">
+    <path d="M 7.882098 1.3492482 C 11.425384 1.3492482 12.943935 3.8801666 12.134041 6.411085 C 11.425384 8.73953 9.1981756 9.3469504 7.3759143 8.5370565 C 8.8944654 7.1197422 9.0969389 5.6011912 7.2746776 4.6900605 C 5.5536531 3.8801666 5.8573633 1.3492482 7.882098 1.3492482 Z" fill="url(#five-lobe-vortex-light-layer-4-paint)" data-part="fill" filter="url(#five-lobe-vortex-light-layer-4-inset)" />
+    <path d="M 7.882098 1.3492482 C 11.425384 1.3492482 12.943935 3.8801666 12.134041 6.411085 C 11.425384 8.73953 9.1981756 9.3469504 7.3759143 8.5370565 C 8.8944654 7.1197422 9.0969389 5.6011912 7.2746776 4.6900605 C 5.5536531 3.8801666 5.8573633 1.3492482 7.882098 1.3492482 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#five-lobe-vortex-light-layer-4-clip)" data-part="edge" />
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+{
+  "name": "c-clamp",
+  "strict": true,
+  "brief": "Layered sunbeam icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "palette": "sunbeam",
+    "stroke_width": 0.85,
+    "relief": 0.16,
+    "light": {
+      "detail": "#A07E20"
+    },
+    "dark": {
+      "detail": "#FFE742"
+    },
+    "grid": "keyline-16",
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "c-clamp",
+      "label": "Clamp",
+      "scenario": "접착 중인 목재를 압착",
+      "meaning": "열린 프레임 안의 조임 나사",
+      "recognition": {
+        "silhouette": "한쪽이 열린 C 프레임",
+        "cue": "열린 프레임 안의 조임 나사",
+        "confusable": "자석",
+        "difference": "내부에 세로 나사와 가로 조작 손잡이",
+        "cue_ids": [
+          "frame",
+          "screw"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "frame",
+          "tag": "path",
+          "d": "M12 2.5 L5 2.5 Q2.5 2.5 2.5 5 L2.5 10.8 Q2.5 13.3 5 13.3 L12 13.3 L12 10.8 L5.5 10.8 L5.5 5 L12 5 Z",
+          "role": "body",
+          "opacity": 0.84
+        },
+        {
+          "id": "screw",
+          "tag": "path",
+          "d": "M10 5 L10 14.4 M8 14.4 L12 14.4",
+          "role": "line"
+        },
+        {
+          "id": "jaw",
+          "tag": "rect",
+          "x": 8.8,
+          "y": 6.2,
+          "width": 2.4,
+          "height": 1.8,
+          "rx": 0.5,
+          "role": "body",
+          "opacity": 0.9
+        }
+      ]
+    }
+  ]
+}

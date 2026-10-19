@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="tennis-racket-light-title" data-profile="pack-layered">
+  <title id="tennis-racket-light-title">Racket</title>
+  <defs>
+    <linearGradient id="tennis-racket-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#A9E597" />
+      <stop offset="1" stop-color="#7DCC60" />
+    </linearGradient>
+    <clipPath id="tennis-racket-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8 1.01 C 10.796 1.01 12.624154 2.9456923 12.624154 5.5266154 C 12.624154 7.7849231 11.118615 9.6130769 9.2904615 10.258308 L 9.2904615 13.807077 Q 9.2904615 14.99 8 14.99 Q 6.7095384 14.99 6.7095384 13.807077 L 6.7095384 10.258308 C 4.8813845 9.6130769 3.3758461 7.7849231 3.3758461 5.5266154 C 3.3758461 2.9456923 5.2039999 1.01 8 1.01 Z" />
+    </clipPath>
+    <filter id="tennis-racket-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.16" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="tennis-racket-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#A9E597" />
+      <stop offset="1" stop-color="#7DCC60" />
+    </linearGradient>
+    <clipPath id="tennis-racket-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <ellipse cx="7.99999995" cy="5.52661537" rx="3.22615387" ry="3.54876926" />
+    </clipPath>
+    <clipPath id="tennis-racket-light-material-body" clipPathUnits="userSpaceOnUse">
+      <path d="M 8 1.01 C 10.796 1.01 12.624154 2.9456923 12.624154 5.5266154 C 12.624154 7.7849231 11.118615 9.6130769 9.2904615 10.258308 L 9.2904615 13.807077 Q 9.2904615 14.99 8 14.99 Q 6.7095384 14.99 6.7095384 13.807077 L 6.7095384 10.258308 C 4.8813845 9.6130769 3.3758461 7.7849231 3.3758461 5.5266154 C 3.3758461 2.9456923 5.2039999 1.01 8 1.01 Z" />
+    </clipPath>
+    <mask id="tennis-racket-light-material-body-interior" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16" mask-type="luminance">
+      <path d="M 8 1.01 C 10.796 1.01 12.624154 2.9456923 12.624154 5.5266154 C 12.624154 7.7849231 11.118615 9.6130769 9.2904615 10.258308 L 9.2904615 13.807077 Q 9.2904615 14.99 8 14.99 Q 6.7095384 14.99 6.7095384 13.807077 L 6.7095384 10.258308 C 4.8813845 9.6130769 3.3758461 7.7849231 3.3758461 5.5266154 C 3.3758461 2.9456923 5.2039999 1.01 8 1.01 Z" fill="white" />
+      <path d="M 8 1.01 C 10.796 1.01 12.624154 2.9456923 12.624154 5.5266154 C 12.624154 7.7849231 11.118615 9.6130769 9.2904615 10.258308 L 9.2904615 13.807077 Q 9.2904615 14.99 8 14.99 Q 6.7095384 14.99 6.7095384 13.807077 L 6.7095384 10.258308 C 4.8813845 9.6130769 3.3758461 7.7849231 3.3758461 5.5266154 C 3.3758461 2.9456923 5.2039999 1.01 8 1.01 Z" fill="none" stroke="black" stroke-width="1" stroke-linejoin="round" />
+    </mask>
+  </defs>
+  <g data-material="body" opacity="0.82">
+    <g data-layer="0">
+      <path d="M 8 1.01 C 10.796 1.01 12.624154 2.9456923 12.624154 5.5266154 C 12.624154 7.7849231 11.118615 9.6130769 9.2904615 10.258308 L 9.2904615 13.807077 Q 9.2904615 14.99 8 14.99 Q 6.7095384 14.99 6.7095384 13.807077 L 6.7095384 10.258308 C 4.8813845 9.6130769 3.3758461 7.7849231 3.3758461 5.5266154 C 3.3758461 2.9456923 5.2039999 1.01 8 1.01 Z" fill="url(#tennis-racket-light-layer-0-paint)" data-part="fill" filter="url(#tennis-racket-light-layer-0-inset)" />
+    </g>
+    <g clip-path="url(#tennis-racket-light-material-body)" data-part="contained">
+      <g opacity="0.35" data-layer="1">
+        <ellipse cx="7.99999995" cy="5.52661537" rx="3.22615387" ry="3.54876926" fill="url(#tennis-racket-light-layer-1-paint)" data-part="fill" />
+      </g>
+    </g>
+    <g>
+      <path d="M 8 1.01 C 10.796 1.01 12.624154 2.9456923 12.624154 5.5266154 C 12.624154 7.7849231 11.118615 9.6130769 9.2904615 10.258308 L 9.2904615 13.807077 Q 9.2904615 14.99 8 14.99 Q 6.7095384 14.99 6.7095384 13.807077 L 6.7095384 10.258308 C 4.8813845 9.6130769 3.3758461 7.7849231 3.3758461 5.5266154 C 3.3758461 2.9456923 5.2039999 1.01 8 1.01 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#tennis-racket-light-layer-0-clip)" data-part="edge" />
+    </g>
+  </g>
+  <g mask="url(#tennis-racket-light-material-body-interior)" data-part="material-detail">
+    <path d="M 5.4190768 4.6663077 L 10.580923 4.6663077 M 5.4190768 6.602 L 10.580923 6.602 M 6.9246153 2.7306153 L 6.9246153 8.2150769 M 9.0753846 2.7306153 L 9.0753846 8.2150769" fill="none" stroke="#11500A" opacity="1" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  </g>
+</svg>

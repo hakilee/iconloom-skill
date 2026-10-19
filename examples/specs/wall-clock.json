@@ -1,0 +1,71 @@
+{
+  "name": "wall-clock",
+  "strict": true,
+  "brief": "Layered sky icon in paired light/dark themes; editable palette demonstration.",
+  "style": {
+    "mode": "layered",
+    "grid": "keyline-16",
+    "palette": "sky",
+    "stroke_width": 1,
+    "relief": 0.16,
+    "line_contrast": "by-role"
+  },
+  "icons": [
+    {
+      "name": "wall-clock",
+      "label": "Clock",
+      "scenario": "공간의 현재 시간 보기",
+      "meaning": "중앙에서 만나는 두 바늘과 주요 눈금",
+      "layout": {
+        "keyline": "circle",
+        "fit": "preserve"
+      },
+      "recognition": {
+        "silhouette": "원판과 두 방향 시곗바늘",
+        "cue": "중앙에서 만나는 두 바늘과 주요 눈금",
+        "confusable": "온도계, 계기판",
+        "difference": "수직 분침과 대각 시침, 네 방향 눈금",
+        "cue_ids": [
+          "hands",
+          "ticks"
+        ]
+      },
+      "shapes": [
+        {
+          "id": "dial",
+          "tag": "circle",
+          "cx": 8,
+          "cy": 8,
+          "r": 6.5,
+          "opacity": 0.84
+        },
+        {
+          "id": "hands",
+          "tag": "path",
+          "d": "M8 5 L8 8 L11 9.5",
+          "role": "line",
+          "parent": "dial"
+        },
+        {
+          "id": "ticks",
+          "tag": "path",
+          "d": "M8 2.5 L8 3.1 M12.9 8 L13.5 8 M8 12.9 L8 13.5 M2.5 8 L3.1 8",
+          "role": "line",
+          "parent": "dial"
+        }
+      ],
+      "construction": {
+        "joins": [],
+        "gaps": [
+          {
+            "parts": [
+              "hands",
+              "ticks"
+            ],
+            "min": 0.5
+          }
+        ]
+      }
+    }
+  ]
+}

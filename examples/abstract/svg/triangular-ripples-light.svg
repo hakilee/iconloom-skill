@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="triangular-ripples-light-title">
+  <title id="triangular-ripples-light-title">Triangular Ripples</title>
+  <defs>
+    <linearGradient id="triangular-ripples-light-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#91E8C7" />
+      <stop offset="1" stop-color="#42BA96" />
+    </linearGradient>
+    <clipPath id="triangular-ripples-light-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.0000002 1.8692935 C 9.0779267 1.8692935 14.898729 11.786217 14.467559 13.079728 C 14.144181 14.481033 1.8558197 14.481033 1.5324417 13.079728 C 1.1012712 11.786217 6.9220738 1.8692935 8.0000002 1.8692935 Z" />
+    </clipPath>
+    <filter id="triangular-ripples-light-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="triangular-ripples-light-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#91E8C7" />
+      <stop offset="1" stop-color="#42BA96" />
+    </linearGradient>
+    <clipPath id="triangular-ripples-light-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.0000002 4.2407316 C 9.0779267 4.2407316 12.419499 10.169327 12.096121 11.355046 C 11.772743 12.540765 4.2272578 12.540765 3.9038799 11.355046 C 3.5805019 10.169327 6.9220738 4.2407316 8.0000002 4.2407316 Z" />
+    </clipPath>
+    <filter id="triangular-ripples-light-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="triangular-ripples-light-layer-2-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#91E8C7" />
+      <stop offset="1" stop-color="#42BA96" />
+    </linearGradient>
+    <clipPath id="triangular-ripples-light-layer-2-clip" clipPathUnits="userSpaceOnUse">
+      <path d="M 8.0000002 6.6121697 C 8.8623414 6.6121697 10.263646 9.4147784 10.04806 10.061534 C 9.8324751 10.923875 6.1675253 10.923875 5.95194 10.061534 C 5.7363548 9.4147784 7.1376591 6.6121697 8.0000002 6.6121697 Z" />
+    </clipPath>
+    <filter id="triangular-ripples-light-layer-2-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="0" dy="0.55" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="0.32" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.07" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g opacity="0.56" data-layer="0">
+    <path d="M 8.0000002 1.8692935 C 9.0779267 1.8692935 14.898729 11.786217 14.467559 13.079728 C 14.144181 14.481033 1.8558197 14.481033 1.5324417 13.079728 C 1.1012712 11.786217 6.9220738 1.8692935 8.0000002 1.8692935 Z" fill="url(#triangular-ripples-light-layer-0-paint)" data-part="fill" filter="url(#triangular-ripples-light-layer-0-inset)" />
+  </g>
+  <g opacity="0.76" data-layer="1">
+    <path d="M 8.0000002 4.2407316 C 9.0779267 4.2407316 12.419499 10.169327 12.096121 11.355046 C 11.772743 12.540765 4.2272578 12.540765 3.9038799 11.355046 C 3.5805019 10.169327 6.9220738 4.2407316 8.0000002 4.2407316 Z" fill="url(#triangular-ripples-light-layer-1-paint)" data-part="fill" filter="url(#triangular-ripples-light-layer-1-inset)" />
+    <path d="M 8.0000002 4.2407316 C 9.0779267 4.2407316 12.419499 10.169327 12.096121 11.355046 C 11.772743 12.540765 4.2272578 12.540765 3.9038799 11.355046 C 3.5805019 10.169327 6.9220738 4.2407316 8.0000002 4.2407316 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#triangular-ripples-light-layer-1-clip)" data-part="edge" />
+  </g>
+  <g opacity="0.82" data-layer="2">
+    <path d="M 8.0000002 6.6121697 C 8.8623414 6.6121697 10.263646 9.4147784 10.04806 10.061534 C 9.8324751 10.923875 6.1675253 10.923875 5.95194 10.061534 C 5.7363548 9.4147784 7.1376591 6.6121697 8.0000002 6.6121697 Z" fill="url(#triangular-ripples-light-layer-2-paint)" data-part="fill" filter="url(#triangular-ripples-light-layer-2-inset)" />
+    <path d="M 8.0000002 6.6121697 C 8.8623414 6.6121697 10.263646 9.4147784 10.04806 10.061534 C 9.8324751 10.923875 6.1675253 10.923875 5.95194 10.061534 C 5.7363548 9.4147784 7.1376591 6.6121697 8.0000002 6.6121697 Z" opacity="1" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" clip-path="url(#triangular-ripples-light-layer-2-clip)" data-part="edge" />
+  </g>
+</svg>

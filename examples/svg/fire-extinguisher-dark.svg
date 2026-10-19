@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" role="img" aria-labelledby="fire-extinguisher-dark-title" data-profile="pack-layered">
+  <title id="fire-extinguisher-dark-title">Extinguisher</title>
+  <defs>
+    <linearGradient id="fire-extinguisher-dark-layer-0-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FF6C6F" />
+      <stop offset="1" stop-color="#FA6062" />
+    </linearGradient>
+    <clipPath id="fire-extinguisher-dark-layer-0-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="9" rx="2" width="6" x="5" y="5" />
+    </clipPath>
+    <filter id="fire-extinguisher-dark-layer-0-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <linearGradient id="fire-extinguisher-dark-layer-1-paint" x1="0.15" y1="0" x2="0.85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FF6C6F" />
+      <stop offset="1" stop-color="#FA6062" />
+    </linearGradient>
+    <clipPath id="fire-extinguisher-dark-layer-1-clip" clipPathUnits="userSpaceOnUse">
+      <rect height="3" rx="0.5" width="2" x="7" y="3" />
+    </clipPath>
+    <filter id="fire-extinguisher-dark-layer-1-inset" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+      <feOffset in="SourceAlpha" dx="1.4" dy="0.9" result="shift" />
+      <feGaussianBlur in="shift" stdDeviation="1.1" result="blur" />
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="rim" />
+      <feFlood flood-color="#FFFFFF" flood-opacity="0.24" result="tint" />
+      <feComposite in="tint" in2="rim" operator="in" result="light" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="light" />
+      </feMerge>
+    </filter>
+    <clipPath id="fire-extinguisher-dark-material-tank" clipPathUnits="userSpaceOnUse">
+      <rect height="9" rx="2" width="6" x="5" y="5" />
+    </clipPath>
+    <mask id="fire-extinguisher-dark-material-tank-interior" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16" mask-type="luminance">
+      <rect height="9" rx="2" width="6" x="5" y="5" fill="white" />
+      <rect height="9" rx="2" width="6" x="5" y="5" fill="none" stroke="black" stroke-width="1" stroke-linejoin="round" />
+    </mask>
+  </defs>
+  <g data-material="tank" opacity="0.84">
+    <g data-layer="0">
+      <rect height="9" rx="2" width="6" x="5" y="5" fill="url(#fire-extinguisher-dark-layer-0-paint)" data-part="fill" filter="url(#fire-extinguisher-dark-layer-0-inset)" />
+    </g>
+    <g clip-path="url(#fire-extinguisher-dark-material-tank)" data-part="contained" />
+    <g>
+      <rect height="9" rx="2" width="6" x="5" y="5" opacity="1" fill="none" stroke="#891919" stroke-width="1" stroke-linejoin="round" clip-path="url(#fire-extinguisher-dark-layer-0-clip)" data-part="edge" />
+    </g>
+  </g>
+  <g mask="url(#fire-extinguisher-dark-material-tank-interior)" data-part="material-detail">
+    <path d="M7 8 L9 8 M7 10 L9 10" fill="none" stroke="#202124" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  </g>
+  <g opacity="0.9" data-layer="1">
+    <rect height="3" rx="0.5" width="2" x="7" y="3" fill="url(#fire-extinguisher-dark-layer-1-paint)" data-part="fill" filter="url(#fire-extinguisher-dark-layer-1-inset)" />
+    <rect height="3" rx="0.5" width="2" x="7" y="3" opacity="1" fill="none" stroke="#891919" stroke-width="1" stroke-linejoin="round" clip-path="url(#fire-extinguisher-dark-layer-1-clip)" data-part="edge" />
+  </g>
+  <path d="M6 3 L10.5 3 L10.5 4.5" fill="none" stroke="#DBE5FF" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+  <path d="M9 4 C13 4 13 6 13 8 L12 8" fill="none" stroke="#DBE5FF" opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-part="line" />
+</svg>
